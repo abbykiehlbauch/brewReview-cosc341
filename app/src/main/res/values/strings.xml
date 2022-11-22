@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Project Step 4 - COSC 341</string>
+    <string name="menu">Menu</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
 </resources>
