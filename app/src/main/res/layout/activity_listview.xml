@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Listview">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="95dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="300dp"
+        android:onClick="backbtn"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@color/prussian_blue"
-        android:fontFamily="serif"
-        android:paddingTop="10sp"
-        android:paddingBottom="20sp"/>
+        android:id="@+id/textView3"
+        android:layout_width="164dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="37dp"
+        android:text="BREW REVIEW"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="9dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="211dp"
+        android:layout_marginEnd="-400dp"
+        android:layout_marginBottom="504dp"
+        android:cropToPadding="true"
+        android:onClick="onProfileClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:srcCompat="@drawable/profileIcon" />
+
+    <TextView
+        android:id="@+id/breweryName"
+        android:layout_width="112dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="550dp"
+        android:autoText="false"
+        android:text="Brewery Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
