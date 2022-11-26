@@ -2563,9 +2563,6 @@ drawable design_snackbar_background
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
-drawable ic_launcher_foreground
-drawable ic_launcher_foreground2
-drawable ic_launcher_foreground3
 drawable ic_launcher_foreground4
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -2642,6 +2639,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profileicon
 drawable rectangle
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2652,6 +2650,9 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id MyRating
+id MyRating2
+id MyRating3
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -2735,6 +2736,12 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id beerBreweryReviewName
+id beerCardOne
+id beerMyRating
+id beerName
+id beerReviewerName
+id beerTextView
 id beginOnFirstDraw
 id beginning
 id bestChoice
@@ -2745,10 +2752,20 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id breweriesList
+id breweryName
+id breweryReviewName
+id breweryReviewName2
+id breweryReviewName3
+id button
+id button2
+id button6
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardOne
+id cardThree
+id cardTwo
 id carryVelocity
 id center
 id centerCrop
@@ -2853,6 +2870,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id header
 id header_title
 id hideable
 id home
@@ -2865,6 +2883,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -2883,8 +2902,10 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
+id mapBtn
 id marquee
 id masked
 id match_constraint
@@ -2909,6 +2930,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id menu
+id menuBtn
 id message
 id middle
 id mini
@@ -2943,6 +2965,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myRating
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2988,6 +3011,9 @@ id radio
 id ratio
 id rectangles
 id reverseSawtooth
+id reviewerName
+id reviewerName2
+id reviewerName3
 id right
 id rightToLeft
 id right_icon
@@ -3079,6 +3105,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3253,6 +3281,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_listview
 layout activity_main
+layout activity_user_profile
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
