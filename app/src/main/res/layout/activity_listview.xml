@@ -14,6 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="300dp"
+        android:onClick="backbtn"
         android:text="Back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,14 +48,16 @@
         android:id="@+id/imageView"
         android:layout_width="71dp"
         android:layout_height="211dp"
+        android:layout_marginEnd="-400dp"
         android:layout_marginBottom="504dp"
         android:cropToPadding="true"
+        android:onClick="onProfileClick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/profileIcon"
-        tools:layout_editor_absoluteX="324dp" />
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:srcCompat="@drawable/profileIcon" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/breweryName"
         android:layout_width="112dp"
         android:layout_height="39dp"
         android:layout_marginStart="146dp"
