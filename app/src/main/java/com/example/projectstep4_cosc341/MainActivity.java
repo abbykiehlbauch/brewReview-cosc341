@@ -2,6 +2,7 @@ package com.example.projectstep4_cosc341;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -31,8 +32,11 @@ public class MainActivity extends AppCompatActivity {
         sort = findViewById(R.id.sort);
         breweries = findViewById(R.id.breweriesList);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, breweryNames);
-        breweries.setAdapter(adapter);
+        Intent intent = new Intent(this, Listview.class);
+        startActivity(intent);
+
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, breweryNames);
+        //breweries.setAdapter(adapter);
 
 
     }
