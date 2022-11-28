@@ -63,19 +63,110 @@ public class MainActivity extends AppCompatActivity {
 
         sa = new SimpleAdapter(this, list, R.layout.activity_breweries_list, new String[] {"line1", "line2"}, new int[]{R.id.textView1, R.id.textView2});
         ((ListView) findViewById(R.id.breweriesList)).setAdapter(sa);
-        //        brewery1 = findViewById(R.id.brewery1);
-//        brewery2 = findViewById(R.id.brewery2);
-//        brewery3 = findViewById(R.id.brewery3);
-//        brewery4 = findViewById(R.id.brewery4);
-//        brewery5 = findViewById(R.id.brewery5);
-//        brewery6 = findViewById(R.id.brewery6);
-//
-//        brewery1.setOnClickListener((View.OnClickListener) this);
-//        brewery2.setOnClickListener((View.OnClickListener) this);
-//        brewery3.setOnClickListener((View.OnClickListener) this);
-//        brewery4.setOnClickListener((View.OnClickListener) this);
-//        brewery5.setOnClickListener((View.OnClickListener) this);
-//        brewery6.setOnClickListener((View.OnClickListener) this);
+        brewery1 = findViewById(R.id.brewery1);
+        brewery2 = findViewById(R.id.brewery2);
+        brewery3 = findViewById(R.id.brewery3);
+        brewery4 = findViewById(R.id.brewery4);
+        brewery5 = findViewById(R.id.brewery5);
+        brewery6 = findViewById(R.id.brewery6);
+
+        brewery1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+
+            }
+        });
+        brewery2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+        brewery3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+        brewery4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+        brewery5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+        brewery6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListView.class);
+                Bundle bundle = new Bundle();
+                for(int i=0; i<breweryInfo.length; i++) {
+                    bundle.putString("name", breweryInfo[i][0]);
+                    bundle.putString("distance", breweryInfo[i][1]);
+                    bundle.putString("rating", breweryInfo[i][2]);
+                    bundle.putString("selection", breweryInfo[i][3]);
+                    bundle.putString("description", breweryInfo[i][4]);
+                }
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
 
         ArrayAdapter<String> sorted = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sorting);
         sorted.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
