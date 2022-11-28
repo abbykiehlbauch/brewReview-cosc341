@@ -37,23 +37,27 @@
         android:text="@string/menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/userProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="275sp"
-        android:layout_marginTop="5sp"
-        android:backgroundTint="@color/claret"
-        android:fontFamily="serif"
-        android:text="@string/profile"
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="75sp"
+        android:background="@drawable/profileicon"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/userProfile"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ImageView>
     <EditText
         android:id="@+id/searchBar"
-        android:layout_width="200sp"
+        android:layout_width="300sp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80sp"
-        android:layout_marginTop="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="130sp"
         android:fontFamily="serif"
         android:hint="@string/search"
         android:textColor="@color/white"
@@ -63,8 +67,8 @@
         android:id="@+id/sort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="300sp"
-        android:layout_marginTop="85sp"
+        android:layout_marginStart="355sp"
+        android:layout_marginTop="140sp"
         android:fontFamily="serif"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +78,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:divider="@color/claret"
-        android:layout_marginTop="115sp"
+        android:layout_marginTop="180sp"
         android:layout_marginStart="10sp"
         android:dividerHeight="2sp"
         android:listSelector="@color/gamboge"
