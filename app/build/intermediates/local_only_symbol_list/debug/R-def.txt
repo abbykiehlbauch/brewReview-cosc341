@@ -52,6 +52,7 @@ id textView3
 id top
 id userProfile
 id welcome
+layout activity_breweries_list
 layout activity_listview
 layout activity_main
 layout activity_user_profile
@@ -61,6 +62,7 @@ string app_name
 string menu
 string profile
 string search
+string welcome
 style Theme.ProjectStep4COSC341
 xml backup_rules
 xml data_extraction_rules

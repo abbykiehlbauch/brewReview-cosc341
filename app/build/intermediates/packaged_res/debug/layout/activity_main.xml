@@ -20,7 +20,7 @@
             android:layout_marginStart="130sp"
             android:layout_marginTop="15sp"
             android:fontFamily="serif"
-            android:text="Welcome!"
+            android:text="@string/welcome"
             android:textColor="@color/white"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,20 +38,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="75sp"
+        android:contentDescription="User Icon"
+        android:background="@drawable/profileicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+    <Button
+        android:id="@+id/userProfile"
         android:layout_width="50sp"
         android:layout_height="50sp"
         android:layout_marginStart="20sp"
         android:layout_marginTop="75sp"
-        android:background="@drawable/profileicon"
+        android:contentDescription="User Profile"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-        <Button
-            android:id="@+id/userProfile"
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"/>
+
     <EditText
         android:id="@+id/searchBar"
         android:layout_width="300sp"
@@ -60,16 +66,20 @@
         android:layout_marginTop="130sp"
         android:fontFamily="serif"
         android:hint="@string/search"
+        android:minHeight="48dp"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Spinner
         android:id="@+id/sort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="355sp"
+        android:layout_marginStart="340sp"
         android:layout_marginTop="140sp"
         android:fontFamily="serif"
+        android:minHeight="48dp"
+        android:contentDescription="SORT BY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ListView

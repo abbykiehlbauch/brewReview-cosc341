@@ -17,12 +17,13 @@ public class MainActivity extends AppCompatActivity {
     TextView welcome;
     Button menu;
     Button profile_;
-    View profile;
     EditText search;
     Spinner sort;
     ListView breweries;
     String[] breweryNames = {"Kelowna Brewing Company", "Shoreline Brewing", "Red Bird Brewing", "Bad Tattoo Brewing"};
     String[] sorting = {"SORT BY", "NEAR ME", "HIGHEST RATING", "LARGEST SELECTION"};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,16 +35,16 @@ public class MainActivity extends AppCompatActivity {
         sort = findViewById(R.id.sort);
         breweries = findViewById(R.id.breweriesList);
         profile_ = findViewById(R.id.userProfile);
-//        profile.setVisibility(View.INVISIBLE);
 
 //        Intent intent = new Intent(this, BreweriesList.class);
 //        startActivity(intent);
-//        ArrayAdapter<String> sorted = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sorting);
-//        sorted.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        sort.setAdapter(sorted);
-//
-//        ArrayAdapter<String> list = new ArrayAdapter<String>(this, R.layout.activity_breweries_list, R.id.textView, breweryNames);
-//        breweries.setAdapter(list);
+
+        ArrayAdapter<String> sorted = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sorting);
+        sorted.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        sort.setAdapter(sorted);
+
+        ArrayAdapter<String> list = new ArrayAdapter<String>(this, R.layout.activity_breweries_list, R.id.textView, breweryNames);
+        breweries.setAdapter(list);
 
 
     }
