@@ -2546,6 +2546,7 @@ int drawable abc_textfield_search_material 0x7f07006f
 int drawable abc_vector_test 0x7f070070
 int drawable avd_hide_password 0x7f070071
 int drawable avd_show_password 0x7f070072
+int drawable brewerybox 0x7f0700d4
 int drawable btn_checkbox_checked_mtrl 0x7f070073
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070074
 int drawable btn_checkbox_unchecked_mtrl 0x7f070075
@@ -2751,6 +2752,12 @@ int id bounceBoth 0x7f080068
 int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
 int id breweriesList 0x7f08006b
+int id brewery1 0x7f08020d
+int id brewery2 0x7f08020a
+int id brewery3 0x7f08020e
+int id brewery4 0x7f080216
+int id brewery5 0x7f080217
+int id brewery6 0x7f080218
 int id breweryName 0x7f08006c
 int id breweryReviewName 0x7f08006d
 int id breweryReviewName2 0x7f08006e
@@ -2928,7 +2935,6 @@ int id material_timepicker_ok_button 0x7f080119
 int id material_timepicker_view 0x7f08011a
 int id material_value_index 0x7f08011b
 int id matrix 0x7f08011c
-int id menu 0x7f08011d
 int id menuBtn 0x7f08011e
 int id message 0x7f08011f
 int id middle 0x7f080120
@@ -3007,6 +3013,7 @@ int id pressed 0x7f080168
 int id progress_circular 0x7f080169
 int id progress_horizontal 0x7f08016a
 int id radio 0x7f08016b
+int id rating 0x7f08021a
 int id ratio 0x7f08016c
 int id rectangles 0x7f08016d
 int id reverseSawtooth 0x7f08016e
@@ -3104,6 +3111,7 @@ int id textSpacerNoTitle 0x7f0801c9
 int id textStart 0x7f0801ca
 int id textTop 0x7f0801cb
 int id textView 0x7f0801cc
+int id textView1 0x7f08021b
 int id textView2 0x7f0801cd
 int id textView3 0x7f0801ce
 int id text_input_end_icon 0x7f0801cf
@@ -3395,6 +3403,7 @@ int string bottomsheet_action_expand 0x7f0f0020
 int string bottomsheet_action_expand_halfway 0x7f0f0021
 int string bottomsheet_drag_handle_clicked 0x7f0f0022
 int string bottomsheet_drag_handle_content_description 0x7f0f0023
+int string brewery_name 0x7f0f0092
 int string character_counter_content_description 0x7f0f0024
 int string character_counter_overflowed_content_description 0x7f0f0025
 int string character_counter_pattern 0x7f0f0026
@@ -3503,6 +3512,7 @@ int string path_password_strike_through 0x7f0f008c
 int string profile 0x7f0f008d
 int string search 0x7f0f008e
 int string search_menu_title 0x7f0f008f
+int string short_description_of_brewery 0x7f0f0093
 int string status_bar_notification_info_overflow 0x7f0f0090
 int string welcome 0x7f0f0091
 int style AlertDialog_AppCompat 0x7f100000

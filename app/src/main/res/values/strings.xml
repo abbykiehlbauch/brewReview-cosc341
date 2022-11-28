@@ -4,4 +4,6 @@
     <string name="profile">Profile</string>
     <string name="search">Search</string>
     <string name="welcome">Welcome!</string>
+    <string name="brewery_name">Brewery Name</string>
+    <string name="short_description_of_brewery">Short description of brewery...</string>
 </resources>

@@ -11,9 +11,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Project Step 4 - COSC 341</string>
+    <string name="brewery_name">Brewery Name</string>
     <string name="menu">Menu</string>
     <string name="profile">Profile</string>
     <string name="search">Search</string>
+    <string name="short_description_of_brewery">Short description of brewery...</string>
     <string name="welcome">Welcome!</string>
     <style name="Theme.ProjectStep4COSC341" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         

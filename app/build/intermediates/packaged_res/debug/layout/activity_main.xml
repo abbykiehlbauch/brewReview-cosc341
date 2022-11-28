@@ -26,41 +26,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
-    <Button
-        android:id="@+id/menu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10sp"
-        android:layout_marginTop="5sp"
-        android:backgroundTint="@color/claret"
-        android:fontFamily="serif"
-        android:text="@string/menu"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
     <ImageView
+        android:id="@+id/userProfile"
         android:layout_width="60sp"
         android:layout_height="50sp"
         android:layout_marginStart="20sp"
         android:layout_marginTop="75sp"
         android:contentDescription="User Icon"
         android:background="@drawable/profileicon"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </ImageView>
-    <Button
-        android:id="@+id/userProfile"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="75sp"
-        android:contentDescription="User Profile"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"/>
-
     <EditText
         android:id="@+id/searchBar"
-        android:layout_width="300sp"
+        android:layout_width="280sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20sp"
         android:layout_marginTop="130sp"
@@ -70,12 +50,11 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <Spinner
         android:id="@+id/sort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="340sp"
+        android:layout_marginStart="300sp"
         android:layout_marginTop="140sp"
         android:fontFamily="serif"
         android:minHeight="48dp"
@@ -90,9 +69,68 @@
         android:divider="@color/claret"
         android:layout_marginTop="180sp"
         android:layout_marginStart="10sp"
-        android:dividerHeight="2sp"
+        android:dividerHeight="4sp"
         android:listSelector="@color/gamboge"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/brewery1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="180sp"
+            android:contentDescription="KBC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/brewery2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="230sp"
+            android:contentDescription="Shoreline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/brewery3"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="280sp"
+            android:contentDescription="Red Bird"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"/>
 
+        <Button
+            android:id="@+id/brewery4"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="330sp"
+            android:contentDescription="Bad Tattoo"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/brewery5"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="380sp"
+            android:contentDescription="brewery5"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/brewery6"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="430sp"
+            android:contentDescription="brewery6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"/>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

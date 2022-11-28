@@ -4,28 +4,36 @@
         "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/drawable_profileicon.png.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/drawable/profileicon.png"
-    },
-    {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/layout_activity_listview.xml.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/layout/activity_listview.xml"
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/layout_activity_user_profile.xml.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/layout/activity_user_profile.xml"
     },
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/layout_activity_breweries_list.xml.flat",
         "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/layout/activity_breweries_list.xml"
     },
     {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/layout_activity_user_profile.xml.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/layout/activity_user_profile.xml"
-    },
-    {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/layout_activity_listview.xml.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/layout/activity_listview.xml"
     },
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/drawable_profileicon.png.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/drawable/profileicon.png"
+    },
+    {
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -46,10 +54,6 @@
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/drawable_ic_launcher_foreground4.png.flat",
         "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/drawable/ic_launcher_foreground4.png"
-    },
-    {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
@@ -76,8 +80,8 @@
         "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/drawable_brewerybox.xml.flat",
+        "source": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-main-31:/drawable/brewerybox.xml"
     },
     {
         "merged": "/Users/sierrawilliams/.gradle/daemon/7.3.3/com.example.projectstep4_cosc341.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
