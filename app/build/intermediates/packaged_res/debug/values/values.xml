@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="breweryNames">
+        <item>Kelowna Brewing Company</item>
+        <item>Shoreline Brewing</item>
+        <item>Red Bird Brewing</item>
+        <item>Bad Tattoo Brewing</item>
+        <item>Kelowna Beer Institute</item>
+        <item>Vice and Virtue Brewing Co.</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="claret">#840032</color>
     <color name="gamboge">#E59500</color>
@@ -16,6 +24,9 @@
     <string name="profile">Profile</string>
     <string name="search">Search</string>
     <string name="short_description_of_brewery">Short description of brewery...</string>
+    <string name="sort_by">SORT BY</string>
+    <string name="user_cover">User cover</string>
+    <string name="user_icon">User Icon</string>
     <string name="welcome">Welcome!</string>
     <style name="Theme.ProjectStep4COSC341" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         

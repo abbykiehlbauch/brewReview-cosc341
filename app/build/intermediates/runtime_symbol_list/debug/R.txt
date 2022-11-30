@@ -65,6 +65,7 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001b
 int animator mtrl_fab_show_motion_spec 0x7f02001c
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f02001d
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f02001e
+int array breweryNames 0x7f140000
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr actionBarDivider 0x7f030002
@@ -2555,11 +2556,13 @@ int drawable btn_radio_off_mtrl 0x7f070077
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070078
 int drawable btn_radio_on_mtrl 0x7f070079
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f07007a
+int drawable circle 0x7f0700d5
 int drawable design_fab_background 0x7f07007b
 int drawable design_ic_visibility 0x7f07007c
 int drawable design_ic_visibility_off 0x7f07007d
 int drawable design_password_eye 0x7f07007e
 int drawable design_snackbar_background 0x7f07007f
+int drawable ic_baseline_search_24 0x7f0700d7
 int drawable ic_clock_black_24dp 0x7f070080
 int drawable ic_keyboard_black_24dp 0x7f070081
 int drawable ic_launcher_background 0x7f070082
@@ -2641,6 +2644,7 @@ int drawable notification_tile_bg 0x7f0700cd
 int drawable notify_panel_notification_icon_bg 0x7f0700ce
 int drawable profileicon 0x7f0700cf
 int drawable rectangle 0x7f0700d0
+int drawable square 0x7f0700d6
 int drawable test_level_drawable 0x7f0700d1
 int drawable tooltip_frame_dark 0x7f0700d2
 int drawable tooltip_frame_light 0x7f0700d3
@@ -2752,12 +2756,6 @@ int id bounceBoth 0x7f080068
 int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
 int id breweriesList 0x7f08006b
-int id brewery1 0x7f08020d
-int id brewery2 0x7f08020a
-int id brewery3 0x7f08020e
-int id brewery4 0x7f080216
-int id brewery5 0x7f080217
-int id brewery6 0x7f080218
 int id breweryName 0x7f08006c
 int id breweryReviewName 0x7f08006d
 int id breweryReviewName2 0x7f08006e
@@ -2802,11 +2800,14 @@ int id continuousVelocity 0x7f080094
 int id coordinator 0x7f080095
 int id cos 0x7f080096
 int id counterclockwise 0x7f080097
+int id cover 0x7f08021c
+int id cover2 0x7f08021d
 int id cradle 0x7f080098
 int id currentState 0x7f080099
 int id custom 0x7f08009a
 int id customPanel 0x7f08009b
 int id cut 0x7f08009c
+int id dataBinding 0x7f08021e
 int id date_picker_actions 0x7f08009d
 int id decelerate 0x7f08009e
 int id decelerateAndComplete 0x7f08009f
@@ -2971,6 +2972,7 @@ int id mtrl_picker_title_text 0x7f08013e
 int id mtrl_view_tag_bottom_padding 0x7f08013f
 int id multiply 0x7f080140
 int id myRating 0x7f080141
+int id nav_search 0x7f080221
 int id navigation_bar_item_active_indicator_view 0x7f080142
 int id navigation_bar_item_icon_container 0x7f080143
 int id navigation_bar_item_icon_view 0x7f080144
@@ -3036,7 +3038,6 @@ int id scrollIndicatorDown 0x7f08017e
 int id scrollIndicatorUp 0x7f08017f
 int id scrollView 0x7f080180
 int id scrollable 0x7f080181
-int id searchBar 0x7f080182
 int id search_badge 0x7f080183
 int id search_bar 0x7f080184
 int id search_button 0x7f080185
@@ -3364,6 +3365,7 @@ int layout select_dialog_item_material 0x7f0b0066
 int layout select_dialog_multichoice_material 0x7f0b0067
 int layout select_dialog_singlechoice_material 0x7f0b0068
 int layout support_simple_spinner_dropdown_item 0x7f0b0069
+int menu menu 0x7f130000
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
@@ -3513,7 +3515,10 @@ int string profile 0x7f0f008d
 int string search 0x7f0f008e
 int string search_menu_title 0x7f0f008f
 int string short_description_of_brewery 0x7f0f0093
+int string sort_by 0x7f0f0094
 int string status_bar_notification_info_overflow 0x7f0f0090
+int string user_cover 0x7f0f0095
+int string user_icon 0x7f0f0096
 int string welcome 0x7f0f0091
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
