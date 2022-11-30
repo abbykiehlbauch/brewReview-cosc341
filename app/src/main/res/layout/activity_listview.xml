@@ -96,6 +96,7 @@
         android:layout_height="38dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onAddBrewReview"
         android:text="+ ADD BREWERY REVIEW"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -163,6 +164,7 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="50dp"
+        android:onClick="onMenuBtn"
         android:text="RESTAURANT MENU"
         android:textSize="8sp"
         app:layout_constraintBottom_toTopOf="@+id/cardOne"
@@ -254,6 +256,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="29dp"
+        android:onClick="onAddBeerReview"
         android:text="+ ADD BEER REVIEW"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -422,5 +425,25 @@
             android:text="First sentence of review" />
 
     </androidx.cardview.widget.CardView>
+
+    <RatingBar
+        android:id="@+id/breweryRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="21dp"
+        android:clickable="true"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mapBtn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

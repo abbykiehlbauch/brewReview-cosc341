@@ -27,7 +27,7 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
 
         BrewNameText = (TextView) findViewById(R.id.BrewNameText);
         //set beername text
-        Intent intent =getIntent();
+        Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         brewname=bundle.getString("Brewname");
         BrewNameText.setText(brewname);
