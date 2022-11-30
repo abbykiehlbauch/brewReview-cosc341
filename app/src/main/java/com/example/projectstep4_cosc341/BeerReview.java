@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
+import java.util.Locale;
+
 public class BeerReview extends AppCompatActivity {
     EditText BeerName;
     EditText BeerType;
@@ -43,7 +45,13 @@ public class BeerReview extends AppCompatActivity {
         startActivity(intent);
 
     }
-
+    public String getBeerType(){return BeerType.toString();}
+    public String getBeerName(){return BeerName.toString();}
+    public String getReview(){return Review.toString();}
+    public int getRating(){
+        RatingBar rating=(RatingBar) findViewById(R.id.Rating);
+        int stars=rating.getNumStars();
+        return stars;}
 
 
 }

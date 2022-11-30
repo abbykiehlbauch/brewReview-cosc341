@@ -5,6 +5,7 @@ import androidx.appcompat.widget.SearchView;
 import androidx.core.view.MenuItemCompat;
 import androidx.databinding.DataBindingUtil;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -27,6 +28,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,10 +54,39 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<String> adapter_;
     ArrayAdapter<String> adapter2;
 
+    static int id=0;
+    static ArrayList<User> Users;
+    static ArrayList<Review> Reviews;
+    static ArrayList<BeerReview> BeerReviews;
+    static UserList LOU;
+    static ReviewList LOR;
+    static BeerReviewList LOBR;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        LOU=LOU.readAccs(getApplicationContext());
+       // LOR=LOR.read(getApplicationContext());
+        //LOBR=LOBR.read(getApplicationContext());
+
+        Users= new ArrayList<User>();
+       // Reviews= new ArrayList<Review>();
+       // BeerReviews= new ArrayList<BeerReview>();
+
+        ArrayList<User> listOfUsers;
+        listOfUsers=LOU.getAccountList();
+
+        if(listOfUsers == null || listOfUsers.isEmpty()){
+            User userMain= new User();
+            Users.add(userMain);
+            LOU=new UserList(Users);
+            LOU.writeAccToFile(LOU, getApplicationContext());
+            System.out.println("is empty and writing");
+        }
+
+
 
         welcome = findViewById(R.id.welcome);
         searchView_ = findViewById(R.id.search_bar);
@@ -218,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);

@@ -1,18 +1,23 @@
 package com.example.projectstep4_cosc341;
 
-public class User extends Review {
+import java.io.Serializable;
+
+public class User implements Serializable {
     String userName, passWord;
     Review reviews[];
+    BeerReview beerReviews[];
     public User() {
-        userName = null;
-        passWord = null;
+        userName = "user";
+        passWord = "pass";
         reviews=null;
+        beerReviews=null;
     }
     //This will be used for creating the account when the user gives information
-    public User(String userName,String passWord, Review[] reviews){
+    public User(String userName,String passWord, Review[] reviews, BeerReview[] beerReviews){
         this.userName = userName;
         this.passWord = passWord;
         this.reviews = reviews;
+        this.beerReviews=beerReviews;
     }
 
     public String getPassWord() {
@@ -25,5 +30,6 @@ public class User extends Review {
   public Review[] getReviews(){
         return reviews;
   }
+  public BeerReview[] getBeerReviews(){return beerReviews;}
 
 }

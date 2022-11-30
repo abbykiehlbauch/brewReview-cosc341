@@ -1,9 +1,9 @@
-#Wed Nov 30 00:27:33 PST 2022
-base.2=C\:\\Users\\abbyk\\Desktop\\COSC 341\\ProjectStep4COSC341\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+#Wed Nov 30 15:11:04 PST 2022
+base.2=C\:\\Users\\lrae2\\AndroidStudioProjects\\ProjectStep4COSCClone\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 path.2=13/classes.dex
-base.1=C\:\\Users\\abbyk\\Desktop\\COSC 341\\ProjectStep4COSC341\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\lrae2\\AndroidStudioProjects\\ProjectStep4COSCClone\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\abbyk\\Desktop\\COSC 341\\ProjectStep4COSC341\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\lrae2\\AndroidStudioProjects\\ProjectStep4COSCClone\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
