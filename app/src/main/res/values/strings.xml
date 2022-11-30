@@ -6,4 +6,9 @@
     <string name="welcome">Welcome!</string>
     <string name="brewery_name">Brewery Name</string>
     <string name="short_description_of_brewery">Short description of brewery...</string>
+    <string-array name="my_array">
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+    </string-array>
 </resources>
