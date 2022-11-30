@@ -6,4 +6,15 @@
     <string name="welcome">Welcome!</string>
     <string name="brewery_name">Brewery Name</string>
     <string name="short_description_of_brewery">Short description of brewery...</string>
+    <string name="sort_by">SORT BY</string>
+    <string name="user_cover">User cover</string>
+    <string name="user_icon">User Icon</string>
+    <string-array name="breweryNames">
+        <item>Kelowna Brewing Company</item>
+        <item>Shoreline Brewing</item>
+        <item>Red Bird Brewing</item>
+        <item>Bad Tattoo Brewing</item>
+        <item>Kelowna Beer Institute</item>
+        <item>Vice and Virtue Brewing Co.</item>
+    </string-array>
 </resources>
