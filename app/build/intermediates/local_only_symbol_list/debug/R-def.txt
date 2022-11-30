@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 array breweryNames
+array my_array
 color black
 color claret
 color gamboge
@@ -19,9 +20,20 @@ drawable ic_launcher_foreground4
 drawable profileicon
 drawable rectangle
 drawable square
+id BeerName
+id BeerNameText
+id BeerType
+id BeerTypeText
+id BrewNameText
+id Delete
 id MyRating
 id MyRating2
 id MyRating3
+id Price
+id Rating
+id Review
+id ReviewText
+id Save
 id beerBreweryReviewName
 id beerCardOne
 id beerMyRating
@@ -48,12 +60,14 @@ id mapBtn
 id menuBtn
 id myRating
 id nav_search
+id no
 id rating
 id reviewerName
 id reviewerName2
 id reviewerName3
 id search_bar
 id sort
+id spinner
 id textView
 id textView1
 id textView2
@@ -61,7 +75,12 @@ id textView3
 id top
 id userProfile
 id welcome
+id yes
+layout activity_beer_review
+layout activity_brew_review
 layout activity_breweries_list
+layout activity_delete_beer_review
+layout activity_delete_brew_review
 layout activity_listview
 layout activity_main
 layout activity_user_profile

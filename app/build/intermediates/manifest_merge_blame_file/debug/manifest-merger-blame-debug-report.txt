@@ -6,100 +6,152 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml
+8-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml
+9-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:5:5-39:19
+11-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:6:5-68:19
 12        android:allowBackup="true"
-12-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:6:9-35
+12-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /Users/sierrawilliams/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\abbyk\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:7:9-65
+14-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:8:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:8:9-54
+16-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:9:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:9:9-43
+17-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:10:9-41
+18-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:11:9-54
+19-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:12:9-35
+20-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.ProjectStep4COSC341" >
-22-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:13:9-57
+22-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:14:9-57
 23        <activity
-23-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:15:9-17:40
-24            android:name="com.example.projectstep4_cosc341.BreweriesList"
-24-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:16:13-42
-25            android:exported="false" />
-25-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:17:13-37
-26        <activity
-26-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:18:9-25:20
-27            android:name="com.example.projectstep4_cosc341.userProfile"
-27-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:19:13-40
-28            android:exported="false"
-28-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:20:13-37
-29            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
-29-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:21:13-55
-30            <meta-data
-30-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:22:13-24:36
-31                android:name="android.app.lib_name"
-31-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:23:17-52
-32                android:value="" />
-32-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:24:17-33
-33        </activity>
-34        <activity
-34-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:26:9-29:57
-35            android:name="com.example.projectstep4_cosc341.Listview"
-35-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:27:13-37
-36            android:exported="false"
-36-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:28:13-37
-37            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" />
-37-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:29:13-55
-38        <activity
-38-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:30:9-38:20
-39            android:name="com.example.projectstep4_cosc341.MainActivity"
-39-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:31:13-41
-40            android:exported="true" >
-40-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:32:13-36
-41            <intent-filter>
-41-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:33:13-37:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:34:17-69
-42-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:34:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:36:17-77
-44-->/Users/sierrawilliams/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/AndroidManifest.xml:36:27-74
-45            </intent-filter>
-46        </activity>
-47
-48        <provider
-48-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-49            android:name="androidx.startup.InitializationProvider"
-49-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-50            android:authorities="com.example.projectstep4_cosc341.androidx-startup"
-50-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-51            android:exported="false" >
-51-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-52            <meta-data
-52-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-53-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-54                android:value="androidx.startup" />
-54-->[androidx.emoji2:emoji2:1.2.0] /Users/sierrawilliams/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-55            <meta-data
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sierrawilliams/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sierrawilliams/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-57                android:value="androidx.startup" />
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sierrawilliams/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-58        </provider>
-59    </application>
-60
-61</manifest>
+23-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:16:9-22:20
+24            android:name="com.example.projectstep4_cosc341.DeleteBrewReview"
+24-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:17:13-45
+25            android:exported="false" >
+25-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:18:13-37
+26            <meta-data
+26-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
+27                android:name="android.app.lib_name"
+27-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
+28                android:value="" />
+28-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
+29        </activity>
+30        <activity
+30-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:23:9-29:20
+31            android:name="com.example.projectstep4_cosc341.DeleteBeerReview"
+31-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:24:13-45
+32            android:exported="false" >
+32-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-37
+33            <meta-data
+33-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
+35                android:value="" />
+35-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:30:9-36:20
+38            android:name="com.example.projectstep4_cosc341.BrewReview"
+38-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:31:13-39
+39            android:exported="false" >
+39-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:32:13-37
+40            <meta-data
+40-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
+42                android:value="" />
+42-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:37:9-43:20
+45            android:name="com.example.projectstep4_cosc341.BeerReview"
+45-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:38:13-39
+46            android:exported="false" >
+46-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:39:13-37
+47            <meta-data
+47-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
+49                android:value="" />
+49-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:44:9-46:40
+52            android:name="com.example.projectstep4_cosc341.BreweriesList"
+52-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:45:13-42
+53            android:exported="false" />
+53-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:46:13-37
+54        <activity
+54-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:47:9-54:20
+55            android:name="com.example.projectstep4_cosc341.userProfile"
+55-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:48:13-40
+56            android:exported="false"
+56-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:49:13-37
+57            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
+57-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:50:13-55
+58            <meta-data
+58-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
+59                android:name="android.app.lib_name"
+59-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
+60                android:value="" />
+60-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
+61        </activity>
+62        <activity
+62-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:55:9-58:58
+63            android:name="com.example.projectstep4_cosc341.Listview"
+63-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:56:13-37
+64            android:exported="false"
+64-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:57:13-37
+65            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" />
+65-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:58:13-55
+66        <activity
+66-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:59:9-67:20
+67            android:name="com.example.projectstep4_cosc341.MainActivity"
+67-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:60:13-41
+68            android:exported="true" >
+68-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:61:13-36
+69            <intent-filter>
+69-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:62:13-66:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:17-69
+70-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:17-77
+72-->C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+78            android:authorities="com.example.projectstep4_cosc341.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abbyk\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abbyk\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abbyk\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abbyk\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+86        </provider>
+87    </application>
+88
+89</manifest>
