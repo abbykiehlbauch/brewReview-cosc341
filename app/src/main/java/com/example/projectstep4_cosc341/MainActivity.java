@@ -177,6 +177,52 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        HashMap<String, String> item1;
+        for (int i = 0; i < breweryInfo1.length; i++) {
+            item1 = new HashMap<String, String>();
+            item1.put("line1", breweryInfo1[i][0]);
+            item1.put("line2", breweryInfo1[i][4]);
+            list1.add(item1);
+        }
+
+        HashMap<String, String> item2;
+        for (int i = 0; i < breweryInfo2.length; i++) {
+            item2 = new HashMap<String, String>();
+            item2.put("line1", breweryInfo2[i][0]);
+            item2.put("line2", breweryInfo2[i][4]);
+            list2.add(item2);
+        }
+
+        HashMap<String, String> item3;
+        for (int i = 0; i < breweryInfo3.length; i++) {
+            item3 = new HashMap<String, String>();
+            item3.put("line1", breweryInfo3[i][0]);
+            item3.put("line2", breweryInfo3[i][4]);
+            list3.add(item3);
+        }
+
+        HashMap<String, String> item4;
+        for (int i = 0; i < breweryInfo4.length; i++) {
+            item4 = new HashMap<String, String>();
+            item4.put("line1", breweryInfo4[i][0]);
+            item4.put("line2", breweryInfo4[i][4]);
+            list4.add(item4);
+        }
+
+        searchView_.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                sa.getFilter().filter(query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                sa.getFilter().filter(newText);
+                return false;
+            }
+        });
+
         ArrayAdapter<String> sorted = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sorting);
         sorted.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sort.setAdapter(sorted);
