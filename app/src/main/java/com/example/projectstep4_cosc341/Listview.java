@@ -35,9 +35,25 @@ public class Listview extends AppCompatActivity {
     }
 
     public void onProfileClick(View view)
-    {
-        Intent intent = new Intent(this, userProfile.class);
-        startActivity(intent);
-    }
+    {Intent intent = new Intent(this, userProfile.class);}
 
+    public void onBrewreviewClick(View view){
+
+        Intent intent= getIntent();
+        Bundle bundle1 = intent.getExtras();
+        String name=bundle1.get("name").toString();
+        System.out.println(name);
+
+        Intent intent2= new Intent(this, BrewReview.class);
+        Bundle bundle2=new Bundle();
+            bundle2.putString("name",name);
+            intent2.putExtras(bundle2);
+        startActivity(intent2);
+
+    }
+    public void onBeerreviewClick(View view){
+        Intent intent= new Intent(this, BeerReview.class);
+        startActivity(intent);
+
+    }
 }

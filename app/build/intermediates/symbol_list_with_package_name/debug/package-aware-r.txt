@@ -2841,6 +2841,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id displayReview
+id displayReviews
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3051,6 +3053,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewUser
 id scrollable
 id search_badge
 id search_bar
@@ -3068,8 +3071,10 @@ id selection_type
 id sharedValueSet
 id sharedValueUnset
 id shortcut
+id showBeerReviewButton
 id showCustom
 id showHome
+id showReviewsButton
 id showTitle
 id sin
 id skipCollapsed

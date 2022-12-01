@@ -30,7 +30,7 @@ public class ReviewList implements Serializable {
         this.ReviewList = null;
     }
 
-    public void writeToFile(ReviewList lOB, Context context) {
+    public void writeToFile(ReviewList lOR, Context context) {
 
         //Open the file to write to
         File directory = new File(context.getFilesDir().getAbsolutePath()
@@ -46,7 +46,7 @@ public class ReviewList implements Serializable {
             out = new ObjectOutputStream(new FileOutputStream(directory
                     + File.separator + filename));
             //write the objects from the lOB arraylist so they are stored in the fie
-            out.writeObject(lOB);
+            out.writeObject(lOR);
             //close the out object output stream
             out.close();
         } catch (FileNotFoundException e) {
@@ -60,7 +60,7 @@ public class ReviewList implements Serializable {
     public static ReviewList read(Context context) {
         //make the object input stream and array list, along with create a string for the file name
         ObjectInputStream input = null;
-        ArrayList<ReviewList> lOB = null;
+        ArrayList<ReviewList> lOR = null;
         String filename = "ReviewList.srl";
         //open the file you will read from
         File direct = new File(context.getFilesDir().getAbsolutePath() + File.separator + "serlization");
