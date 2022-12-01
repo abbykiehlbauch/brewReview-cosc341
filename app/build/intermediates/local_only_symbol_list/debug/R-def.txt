@@ -17,6 +17,12 @@ drawable circle
 drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground4
+drawable kbcmenu1
+drawable kbcmenu2
+drawable kbcmenu3
+drawable kbcmenu4
+drawable kbcmenu5
+drawable kbcmenu6
 drawable profileicon
 drawable rectangle
 drawable square
@@ -47,9 +53,6 @@ id beerMyRating3
 id beerName
 id beerName2
 id beerName3
-id beerReviewerName
-id beerReviewerName2
-id beerReviewerName3
 id beerTextView
 id beerTextView2
 id beerTextView3
@@ -77,9 +80,6 @@ id myRating
 id nav_search
 id no
 id rating
-id reviewerName
-id reviewerName2
-id reviewerName3
 id search_bar
 id sort
 id spinner

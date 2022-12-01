@@ -229,37 +229,36 @@ public class MainActivity extends AppCompatActivity {
     }
     private String[][] breweryInfo1 = {
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
-            {"Shoreline Brewing", "15.0", "4.5", "10", "View of the lake"},
-            {"Red Bird Brewing", "12.0", "4.5", "6", "Party Central"},
-            {"Bad Tattoo Brewing", "13.0", "2.5", "11", "PIZZA"},
-            {"Kelowna Beer Institute", "14.0", "3.5", "8", "Great food"},
-            {"Vice and Virtue Brewing Co.", "12.0", "4.5", "6", "Wheelchair Accessible"}};
+            {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"},
+            {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
+            {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"},
+            {"Kelowna Beer Institute", "14.0", "4", "8", "Great food"},
+            {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"}};
 
     private String[][] breweryInfo2 = {
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
-            {"Red Bird Brewing", "12.0", "4.5", "6", "Party Central"},
-            {"Vice and Virtue Brewing Co.", "12.0", "4.5", "6", "Wheelchair Accessible"},
-            {"Bad Tattoo Brewing", "13.0", "2.5", "11", "PIZZA"},
-            {"Kelowna Beer Institute", "14.0", "3.5", "8", "Great food"},
-            {"Shoreline Brewing", "15.0", "4.5", "10", "View of the lake"}};
+            {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
+            {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"},
+            {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"},
+            {"Kelowna Beer Institute", "14.0", "4", "8", "Great food"},
+            {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"}};
 
     private String[][] breweryInfo3 = {
-            {"Shoreline Brewing", "15.0", "4.5", "10", "View of the lake"},
-            {"Red Bird Brewing", "12.0", "4.5", "6", "Party Central"},
-            {"Vice and Virtue Brewing Co.", "12.0", "4.5", "6", "Wheelchair Accessible"},
-            {"Kelowna Beer Institute", "14.0", "3.5", "8", "Great food"},
+            {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"},
+            {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
+            {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"},
+            {"Kelowna Beer Institute", "14.0", "3", "8", "Great food"},
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
-            {"Bad Tattoo Brewing", "13.0", "2.5", "11", "PIZZA"}};
+            {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"}};
 
     private String[][] breweryInfo4 = {
-            {"Bad Tattoo Brewing", "13.0", "2.5", "11", "PIZZA"},
-            {"Shoreline Brewing", "15.0", "4.5", "10", "View of the lake"},
+            {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"},
+            {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"},
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
-            {"Kelowna Beer Institute", "14.0", "3.5", "8", "Great food"},
-            {"Red Bird Brewing", "12.0", "4.5", "6", "Party Central"},
-            {"Vice and Virtue Brewing Co.", "12.0", "4.5", "6", "Wheelchair Accessible"}};
+            {"Kelowna Beer Institute", "14.0", "3", "8", "Great food"},
+            {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
+            {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"}};
 }
-
 
 //        breweries.setClickable(true);
 //        breweries.setOnItemClickListener(new AdapterView.OnItemClickListener() {

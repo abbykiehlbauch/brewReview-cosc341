@@ -2576,6 +2576,12 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable kbcmenu1
+drawable kbcmenu2
+drawable kbcmenu3
+drawable kbcmenu4
+drawable kbcmenu5
+drawable kbcmenu6
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2766,9 +2772,6 @@ id beerMyRating3
 id beerName
 id beerName2
 id beerName3
-id beerReviewerName
-id beerReviewerName2
-id beerReviewerName3
 id beerTextView
 id beerTextView2
 id beerTextView3
@@ -3048,9 +3051,6 @@ id rating
 id ratio
 id rectangles
 id reverseSawtooth
-id reviewerName
-id reviewerName2
-id reviewerName3
 id right
 id rightToLeft
 id right_icon

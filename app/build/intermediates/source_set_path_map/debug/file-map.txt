@@ -23,11 +23,11 @@ com.example.projectstep4_cosc341.app-cardview-1.0.0-21 C:\Users\abbyk\.gradle\ca
 com.example.projectstep4_cosc341.app-databinding-runtime-4.2.2-22 C:\Users\abbyk\.gradle\caches\transforms-3\d6a5a597f9cb1df86da10bb3daef6f64\transformed\databinding-runtime-4.2.2\res
 com.example.projectstep4_cosc341.app-startup-runtime-1.1.1-23 C:\Users\abbyk\.gradle\caches\transforms-3\dd26f7af4232aa82cd84cd79d410c8bc\transformed\startup-runtime-1.1.1\res
 com.example.projectstep4_cosc341.app-coordinatorlayout-1.1.0-24 C:\Users\abbyk\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\res
-com.example.projectstep4_cosc341.app-pngs-25 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\generated\res\pngs\debug
-com.example.projectstep4_cosc341.app-resValues-26 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\generated\res\resValues\debug
-com.example.projectstep4_cosc341.app-rs-27 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\generated\res\rs\debug
-com.example.projectstep4_cosc341.app-packageDebugResources-28 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.projectstep4_cosc341.app-packageDebugResources-29 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.projectstep4_cosc341.app-merged_res-30 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\build\intermediates\merged_res\debug
-com.example.projectstep4_cosc341.app-debug-31 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\debug\res
-com.example.projectstep4_cosc341.app-main-32 C:\Users\abbyk\Desktop\COSC 341\ProjectStep4COSC341\app\src\main\res
+com.example.projectstep4_cosc341.app-pngs-25 C:\Users\abbyk\ProjectStep4COSC341\app\build\generated\res\pngs\debug
+com.example.projectstep4_cosc341.app-resValues-26 C:\Users\abbyk\ProjectStep4COSC341\app\build\generated\res\resValues\debug
+com.example.projectstep4_cosc341.app-rs-27 C:\Users\abbyk\ProjectStep4COSC341\app\build\generated\res\rs\debug
+com.example.projectstep4_cosc341.app-packageDebugResources-28 C:\Users\abbyk\ProjectStep4COSC341\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.projectstep4_cosc341.app-packageDebugResources-29 C:\Users\abbyk\ProjectStep4COSC341\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.projectstep4_cosc341.app-merged_res-30 C:\Users\abbyk\ProjectStep4COSC341\app\build\intermediates\merged_res\debug
+com.example.projectstep4_cosc341.app-debug-31 C:\Users\abbyk\ProjectStep4COSC341\app\src\debug\res
+com.example.projectstep4_cosc341.app-main-32 C:\Users\abbyk\ProjectStep4COSC341\app\src\main\res
