@@ -2600,6 +2600,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menucover
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2638,6 +2639,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nomenu
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2652,6 +2654,19 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profileicon
 drawable rectangle
+drawable shorelinemenu01
+drawable shorelinemenu02
+drawable shorelinemenu03
+drawable shorelinemenu04
+drawable shorelinemenu05
+drawable shorelinemenu06
+drawable shorelinemenu07
+drawable shorelinemenu08
+drawable shorelinemenu09
+drawable shorelinemenu10
+drawable shorelinemenu11
+drawable shorelinemenu12
+drawable shorelinemenu13
 drawable square
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2922,6 +2937,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView8
 id immediateStop
 id included
 id indeterminate
@@ -3014,6 +3030,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextBtn
 id no
 id noScroll
 id noState
@@ -3044,6 +3061,7 @@ id pin
 id position
 id postLayout
 id pressed
+id previousBtn
 id progress_circular
 id progress_horizontal
 id radio

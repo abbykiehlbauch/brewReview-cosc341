@@ -4,8 +4,8 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_listview.xml"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu02.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu02.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\layout_activity_user_profile.xml.flat",
@@ -16,36 +16,16 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_launcher_foreground4.png.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_launcher_foreground4.png"
-    },
-    {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_rectangle.xml.flat",
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu13.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu13.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.projectstep4_cosc341.app-merged_res-30:/layout_activity_listview.xml.flat",
-        "source": "com.example.projectstep4_cosc341.app-main-32:/layout/activity_listview.xml"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_circle.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\circle.xml"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\layout_activity_delete_brew_review.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_delete_brew_review.xml"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu5.png.flat",
@@ -68,20 +48,16 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu05.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu05.png"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projectstep4_cosc341.app-merged_res-30:/drawable_nomenu.png.flat",
+        "source": "com.example.projectstep4_cosc341.app-main-32:/drawable/nomenu.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\menu_menu.xml.flat",
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\menu\\menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu3.png.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu3.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_profileicon.png.flat",
@@ -92,18 +68,6 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_view_menu.xml"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_baseline_search_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu1.png.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu1.png"
-    },
-    {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu6.png.flat",
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu6.png"
     },
@@ -112,12 +76,8 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_delete_beer_review.xml"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_square.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\square.xml"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu01.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu01.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_brewerybox.xml.flat",
@@ -132,12 +92,112 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu10.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu10.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu2.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu2.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu04.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu04.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_launcher_foreground4.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_launcher_foreground4.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu07.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu07.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\layout_activity_delete_brew_review.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_delete_brew_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu08.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu08.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_menucover.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\menucover.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu3.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu3.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu11.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu11.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu1.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu1.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu03.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu03.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_square.xml.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\square.xml"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu4.png.flat",
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu4.png"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu06.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu06.png"
+    },
+    {
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu12.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu12.png"
     },
     {
         "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\layout_activity_brew_review.xml.flat",
@@ -148,11 +208,7 @@
         "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_beer_review.xml"
     },
     {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_kbcmenu2.png.flat",
-        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\kbcmenu2.png"
+        "merged": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu09.png.flat",
+        "source": "C:\\Users\\abbyk\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu09.png"
     }
 ]

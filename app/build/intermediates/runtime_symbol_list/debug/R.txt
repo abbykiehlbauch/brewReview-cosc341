@@ -2599,6 +2599,7 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f08009c
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f08009d
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f08009e
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f08009f
+int drawable menucover 0x7f0800eb
 int drawable mtrl_bottomsheet_drag_handle 0x7f0800a0
 int drawable mtrl_checkbox_button 0x7f0800a1
 int drawable mtrl_checkbox_button_checked_unchecked 0x7f0800a2
@@ -2637,6 +2638,7 @@ int drawable mtrl_switch_track 0x7f0800c2
 int drawable mtrl_switch_track_decoration 0x7f0800c3
 int drawable mtrl_tabs_default_indicator 0x7f0800c4
 int drawable navigation_empty_icon 0x7f0800c5
+int drawable nomenu 0x7f0800ec
 int drawable notification_action_background 0x7f0800c6
 int drawable notification_bg 0x7f0800c7
 int drawable notification_bg_low 0x7f0800c8
@@ -2651,6 +2653,19 @@ int drawable notification_tile_bg 0x7f0800d0
 int drawable notify_panel_notification_icon_bg 0x7f0800d1
 int drawable profileicon 0x7f0800d2
 int drawable rectangle 0x7f0800d3
+int drawable shorelinemenu01 0x7f0800de
+int drawable shorelinemenu02 0x7f0800df
+int drawable shorelinemenu03 0x7f0800e0
+int drawable shorelinemenu04 0x7f0800e1
+int drawable shorelinemenu05 0x7f0800e2
+int drawable shorelinemenu06 0x7f0800e3
+int drawable shorelinemenu07 0x7f0800e4
+int drawable shorelinemenu08 0x7f0800e5
+int drawable shorelinemenu09 0x7f0800e6
+int drawable shorelinemenu10 0x7f0800e7
+int drawable shorelinemenu11 0x7f0800e8
+int drawable shorelinemenu12 0x7f0800e9
+int drawable shorelinemenu13 0x7f0800ea
 int drawable square 0x7f0800d4
 int drawable test_level_drawable 0x7f0800d5
 int drawable tooltip_frame_dark 0x7f0800d6
@@ -2921,6 +2936,7 @@ int id ignore 0x7f090109
 int id ignoreRequest 0x7f09010a
 int id image 0x7f09010b
 int id imageView 0x7f09010c
+int id imageView8 0x7f090226
 int id immediateStop 0x7f09010d
 int id included 0x7f09010e
 int id indeterminate 0x7f09010f
@@ -3013,6 +3029,7 @@ int id navigation_header_container 0x7f090165
 int id never 0x7f090166
 int id neverCompleteToEnd 0x7f090167
 int id neverCompleteToStart 0x7f090168
+int id nextBtn 0x7f090227
 int id no 0x7f090169
 int id noScroll 0x7f09016a
 int id noState 0x7f09016b
@@ -3043,6 +3060,7 @@ int id pin 0x7f090183
 int id position 0x7f090184
 int id postLayout 0x7f090185
 int id pressed 0x7f090186
+int id previousBtn 0x7f090228
 int id progress_circular 0x7f090187
 int id progress_horizontal 0x7f090188
 int id radio 0x7f090189
