@@ -53,6 +53,8 @@ id cardThree
 id cardTwo
 id cover
 id cover2
+id displayReview
+id displayReviews
 id header
 id imageView
 id linearLayout
@@ -65,7 +67,10 @@ id rating
 id reviewerName
 id reviewerName2
 id reviewerName3
+id scrollViewUser
 id search_bar
+id showBeerReviewButton
+id showReviewsButton
 id sort
 id spinner
 id textView

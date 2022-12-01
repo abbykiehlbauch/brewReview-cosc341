@@ -45,7 +45,7 @@ public class UserList implements Serializable {
         try {
             out = new ObjectOutputStream(new FileOutputStream(directory
                     + File.separator + filename));
-            //write the objects from the lOB arraylist so they are stored in the fie
+            //write the objects from the lOU arraylist so they are stored in the fie
             out.writeObject(lOU);
             //close the out object output stream
             out.close();
@@ -60,7 +60,7 @@ public class UserList implements Serializable {
     public static UserList readAccs(Context context) {
         //make the object input stream and array list, along with create a string for the file name
         ObjectInputStream input = null;
-        ArrayList<UserList> lOA = null;
+        ArrayList<UserList> lOU = null;
         String filename = "userList.srl";
         //open the file you will read from
         File direct = new File(context.getFilesDir().getAbsolutePath() + File.separator + "serlization");

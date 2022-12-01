@@ -15,13 +15,13 @@ import java.util.ArrayList;
 
 public class BeerReviewList implements Serializable {
 
-    ArrayList<BeerReview> BeerReviewList;
+    ArrayList<bReview> BeerReviewList;
 
-    public ArrayList<BeerReview> getBookList() {
+    public ArrayList<bReview> getBeerReviewList() {
         return BeerReviewList;
     }
 
-    public BeerReviewList(ArrayList<BeerReview> BeerReviewList) {
+    public BeerReviewList(ArrayList<bReview> BeerReviewList) {
 
         this.BeerReviewList = BeerReviewList;
     }

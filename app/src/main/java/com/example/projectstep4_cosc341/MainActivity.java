@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     static int id=0;
     static ArrayList<User> Users;
     static ArrayList<Review> Reviews;
-    static ArrayList<BeerReview> BeerReviews;
+    static ArrayList<bReview> BeerReviews;
     static UserList LOU;
     static ReviewList LOR;
     static BeerReviewList LOBR;
@@ -68,12 +68,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LOU=LOU.readAccs(getApplicationContext());
-       // LOR=LOR.read(getApplicationContext());
-        //LOBR=LOBR.read(getApplicationContext());
+        LOR=LOR.read(getApplicationContext());
+        LOBR=LOBR.read(getApplicationContext());
 
         Users= new ArrayList<User>();
-       // Reviews= new ArrayList<Review>();
-       // BeerReviews= new ArrayList<BeerReview>();
+        Reviews= new ArrayList<Review>();
+        BeerReviews= new ArrayList<bReview>();
 
         ArrayList<User> listOfUsers;
         listOfUsers=LOU.getAccountList();
@@ -86,6 +86,21 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("is empty and writing");
         }
 
+        ArrayList<Review> listOfReviews;
+        listOfReviews=LOR.getReviewList();
+
+        if(listOfReviews==null||listOfReviews.isEmpty()){
+            LOR=new ReviewList();
+            LOR.writeToFile(LOR, getApplicationContext());
+        }
+
+        ArrayList<bReview> listOfBeerReviews;
+        listOfBeerReviews=LOBR.getBeerReviewList();
+
+        if(listOfBeerReviews==null||listOfBeerReviews.isEmpty()){
+            LOBR=new BeerReviewList();
+            LOBR.writeToFile(LOBR, getApplicationContext());
+        }
 
 
         welcome = findViewById(R.id.welcome);
