@@ -76,7 +76,7 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
             LOR.read(getApplicationContext());
 
             if(LOR.getReviewList()==null){
-               reviewList=new ArrayList<Review>();
+                reviewList=new ArrayList<Review>();
                 reviewList.add(new Review(name,rating,review,price));
                 LOR= new ReviewList(reviewList);
                 LOR.writeToFile(LOR,getApplicationContext());
@@ -99,7 +99,7 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
 
 
     public void Delete(View view){
-       finish();
+        finish();
 
     }
 
