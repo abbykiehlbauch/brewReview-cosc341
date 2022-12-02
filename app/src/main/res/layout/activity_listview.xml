@@ -96,11 +96,7 @@
         android:layout_height="38dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
-<<<<<<< HEAD
         android:onClick="onAddBrewReview"
-=======
-        android:onClick="onBrewreviewClick"
->>>>>>> main
         android:text="+ ADD BREWERY REVIEW"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -256,11 +252,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="29dp"
-<<<<<<< HEAD
         android:onClick="onAddBeerReview"
-=======
-        android:onClick="onBeerreviewClick"
->>>>>>> main
         android:text="+ ADD BEER REVIEW"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
