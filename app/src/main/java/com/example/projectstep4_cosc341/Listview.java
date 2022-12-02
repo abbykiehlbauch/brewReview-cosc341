@@ -104,16 +104,21 @@ public class Listview extends AppCompatActivity {
 
     public void onProfileClick(View view)
     {
-        Intent intent = new Intent(this, userProfile.class);
+        Intent intent = new Intent(this, userProfile.class); startActivity(intent);
     }
 
     public void onAddBrewReview(View view)
     {
-        Intent intent = new Intent(this, BrewReview.class);
-        Bundle bundle = new Bundle();
-        bundle.putString("Brewname", BrewName);
-        intent.putExtras(bundle);
-        startActivity(intent);
+        Intent intent= getIntent();
+        Bundle bundle1 = intent.getExtras();
+        String name=bundle1.get("name").toString();
+        System.out.println(name);
+
+        Intent intent2= new Intent(this, BrewReview.class);
+        Bundle bundle2=new Bundle();
+        bundle2.putString("name",name);
+        intent2.putExtras(bundle2);
+        startActivity(intent2);
     }
 
     public void onAddBeerReview(View view)

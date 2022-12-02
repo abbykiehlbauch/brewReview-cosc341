@@ -6,128 +6,128 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml
+8-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml
+9-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:6:5-68:19
+11-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:6:5-68:19
 12        android:allowBackup="true"
-12-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:7:9-35
+12-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.8.0] C:\Users\lrae2\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:8:9-65
+14-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:8:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:9:9-54
+16-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:9:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:10:9-43
+17-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:11:9-41
+18-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:12:9-54
+19-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:13:9-35
+20-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.ProjectStep4COSC341" >
-22-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:14:9-57
+22-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:14:9-57
 23        <activity
-23-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:16:9-22:20
+23-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:16:9-22:20
 24            android:name="com.example.projectstep4_cosc341.DeleteBrewReview"
-24-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:17:13-45
+24-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:17:13-45
 25            android:exported="false" >
-25-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:18:13-37
+25-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:18:13-37
 26            <meta-data
-26-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:19:13-21:36
+26-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
 27                android:name="android.app.lib_name"
-27-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:20:17-52
+27-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
 28                android:value="" />
-28-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:21:17-33
+28-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
 29        </activity>
 30        <activity
-30-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:23:9-29:20
+30-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:23:9-29:20
 31            android:name="com.example.projectstep4_cosc341.DeleteBeerReview"
-31-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:24:13-45
+31-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:24:13-45
 32            android:exported="false" >
-32-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:25:13-37
+32-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-37
 33            <meta-data
-33-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:19:13-21:36
+33-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
 34                android:name="android.app.lib_name"
-34-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:20:17-52
+34-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
 35                android:value="" />
-35-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:21:17-33
+35-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
 36        </activity>
 37        <activity
-37-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:30:9-36:20
+37-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:30:9-36:20
 38            android:name="com.example.projectstep4_cosc341.BrewReview"
-38-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:31:13-39
+38-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:31:13-39
 39            android:exported="false" >
-39-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:32:13-37
+39-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:32:13-37
 40            <meta-data
-40-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:19:13-21:36
+40-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
 41                android:name="android.app.lib_name"
-41-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:20:17-52
+41-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
 42                android:value="" />
-42-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:21:17-33
+42-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
 43        </activity>
 44        <activity
-44-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:37:9-43:20
+44-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:37:9-43:20
 45            android:name="com.example.projectstep4_cosc341.BeerReview"
-45-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:38:13-39
+45-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:38:13-39
 46            android:exported="false" >
-46-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:39:13-37
+46-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:39:13-37
 47            <meta-data
-47-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:19:13-21:36
+47-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
 48                android:name="android.app.lib_name"
-48-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:20:17-52
+48-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
 49                android:value="" />
-49-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:21:17-33
+49-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
 50        </activity>
 51        <activity
-51-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:44:9-46:40
+51-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:44:9-46:40
 52            android:name="com.example.projectstep4_cosc341.BreweriesList"
-52-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:45:13-42
+52-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:45:13-42
 53            android:exported="false" />
-53-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:46:13-37
+53-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:46:13-37
 54        <activity
-54-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:47:9-54:20
+54-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:47:9-54:20
 55            android:name="com.example.projectstep4_cosc341.userProfile"
-55-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:48:13-40
+55-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:48:13-40
 56            android:exported="false"
-56-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:49:13-37
+56-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:49:13-37
 57            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
-57-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:50:13-55
+57-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:50:13-55
 58            <meta-data
-58-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:19:13-21:36
+58-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
 59                android:name="android.app.lib_name"
-59-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:20:17-52
+59-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
 60                android:value="" />
-60-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:21:17-33
+60-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
 61        </activity>
 62        <activity
-62-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:55:9-58:58
+62-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:55:9-58:58
 63            android:name="com.example.projectstep4_cosc341.Listview"
-63-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:56:13-37
+63-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:56:13-37
 64            android:exported="false"
-64-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:57:13-37
+64-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:57:13-37
 65            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" />
-65-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:58:13-55
+65-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:58:13-55
 66        <activity
-66-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:59:9-67:20
+66-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:59:9-67:20
 67            android:name="com.example.projectstep4_cosc341.MainActivity"
-67-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:60:13-41
+67-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:60:13-41
 68            android:exported="true" >
-68-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:61:13-36
+68-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:61:13-36
 69            <intent-filter>
-69-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:62:13-66:29
+69-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:62:13-66:29
 70                <action android:name="android.intent.action.MAIN" />
-70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:63:17-69
-70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:63:25-66
+70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:17-69
+70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:25-66
 71
 72                <category android:name="android.intent.category.LAUNCHER" />
-72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:65:17-77
-72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSCClone\app\src\main\AndroidManifest.xml:65:27-74
+72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:17-77
+72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:27-74
 73            </intent-filter>
 74        </activity>
 75
