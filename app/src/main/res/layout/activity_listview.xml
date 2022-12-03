@@ -68,34 +68,25 @@
                 android:layout_gravity="bottom"
                 android:layout_below = "@+id/breweryReviewName"
                 android:text="First sentence of review" />
+
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <ImageButton
         android:id="@+id/button2"
-        android:layout_width="95dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="74dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="17dp"
         android:onClick="backbtn"
-        android:text="Back"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backarrow"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/button"
-        android:layout_width="154dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginEnd="228dp"
-        android:onClick="onAddBrewReview"
-        android:padding="8dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/addbreweryreviewbutton"
-        android:textSize="8sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapBtn" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -155,7 +146,7 @@
         android:layout_width="121dp"
         android:layout_height="36dp"
         android:layout_marginTop="1dp"
-        android:padding="8dp"
+        android:padding="0dp"
         android:scaleType="fitCenter"
         android:src="@drawable/restaurantmenubutton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,10 +156,10 @@
 
     <ImageButton
         android:id="@+id/mapBtn"
-        android:layout_width="111dp"
-        android:layout_height="37dp"
+        android:layout_width="121dp"
+        android:layout_height="36dp"
         android:layout_marginTop="8dp"
-        android:padding="8dp"
+        android:padding="0dp"
         android:scaleType="fitCenter"
         android:src="@drawable/getdirectionsbutton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -238,16 +229,17 @@
 
     <ImageButton
         android:id="@+id/button6"
-        android:layout_width="152dp"
-        android:layout_height="44dp"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="228dp"
+        android:layout_marginEnd="212dp"
         android:onClick="onAddBeerReview"
-        android:padding="8dp"
+        android:padding="0dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/addbreweryreviewbutton"
+        android:src="@drawable/addbeereviewbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardThree" />
+        app:layout_constraintTop_toBottomOf="@+id/cardThree"
+        tools:ignore="UsingOnClickInXml" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/beerCardOne"
@@ -416,5 +408,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:onClick="onAddBrewReview"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/addbreweryreviewbutton"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardOne"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

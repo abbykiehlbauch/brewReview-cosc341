@@ -49,38 +49,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.427" />
 
     <ImageButton
         android:id="@+id/Delete"
-        android:layout_width="119dp"
-        android:layout_height="64dp"
+        android:layout_width="74dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="26dp"
         android:onClick="Delete"
         android:padding="0dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/deletebutton"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/backarrow"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
+        app:layout_constraintTop_toBottomOf="@+id/top" />
 
     <ImageButton
         android:id="@+id/Save"
         android:layout_width="119dp"
         android:layout_height="64dp"
         android:onClick="Save"
-        android:text="Save"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:src="@drawable/savebutton"
+        android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
+        app:layout_constraintVertical_bias="0.949" />
 
     <EditText
         android:id="@+id/BeerName"
@@ -89,10 +86,34 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.206" />
+
+    <TextView
+        android:id="@+id/BeerNameText"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="476dp"
+        android:text="Beer Type:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/BeerTypeText"
+        android:layout_width="171dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="552dp"
+        android:text="Beer Name:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/BeerType"
@@ -101,10 +122,10 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <EditText
         android:id="@+id/Review"
@@ -121,39 +142,15 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673">
+        app:layout_constraintVertical_bias="0.756">
 
     </EditText>
-
-    <TextView
-        android:id="@+id/BeerNameText"
-        android:layout_width="157dp"
-        android:layout_height="37dp"
-        android:layout_marginBottom="544dp"
-        android:text="Beer Type:"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/BeerTypeText"
-        android:layout_width="171dp"
-        android:layout_height="39dp"
-        android:layout_marginBottom="620dp"
-        android:text="Beer Name:"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/ReviewText"
         android:layout_width="181dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="380dp"
+        android:layout_marginBottom="340dp"
         android:text="Review:"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"

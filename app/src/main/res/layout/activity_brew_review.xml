@@ -29,25 +29,14 @@
 
     </LinearLayout>
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="107dp"
-        android:layout_height="58dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.296"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
-
     <RatingBar
         android:id="@+id/Rating"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="81dp"
         android:layout_height="17dp"
         android:layout_gravity="top|right"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="166dp"
         android:clickable="true"
         android:isIndicator="false"
         android:max="5"
@@ -57,24 +46,26 @@
         android:scaleY="3"
         android:stepSize="1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394" />
+        app:layout_constraintVertical_bias="0.464" />
 
     <ImageButton
         android:id="@+id/Delete"
-        android:layout_width="119dp"
-        android:layout_height="64dp"
+        android:layout_width="74dp"
+        android:layout_height="58dp"
         android:onClick="Delete"
         android:padding="0dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/deletebutton"
+        android:src="@drawable/backarrow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
+        app:layout_constraintVertical_bias="0.105" />
+
 
     <ImageButton
         android:id="@+id/Save"
@@ -86,11 +77,10 @@
         android:src="@drawable/savebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
-
+        app:layout_constraintVertical_bias="0.95" />
 
     <EditText
         android:id="@+id/Review"
@@ -105,19 +95,18 @@
         android:textSize="21sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673">
+        app:layout_constraintVertical_bias="0.781">
 
     </EditText>
-
 
     <TextView
         android:id="@+id/Price"
         android:layout_width="164dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginBottom="448dp"
         android:text="Price:"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -126,25 +115,37 @@
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="107dp"
+        android:layout_height="58dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
     <TextView
         android:id="@+id/BrewNameText"
         android:layout_width="380dp"
         android:layout_height="101dp"
-        android:layout_marginBottom="568dp"
+        android:layout_marginBottom="492dp"
         android:gravity="center"
         android:text="Brew Name Text"
         android:textColor="#000000"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/ReviewText"
         android:layout_width="181dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="368dp"
+        android:layout_marginBottom="312dp"
         android:text="Review:"
         android:textColor="#000000"
         android:textSize="25sp"
