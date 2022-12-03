@@ -7,6 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".Listview">
 
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="410sp"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/breweryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:text="User Profile"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
     <androidx.cardview.widget.CardView
 
         android:id="@+id/cardOne"
@@ -55,61 +76,35 @@
         android:id="@+id/button2"
         android:layout_width="95dp"
         android:layout_height="44dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="300dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="84dp"
         android:onClick="backbtn"
         android:text="Back"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/header"
-        android:layout_width="129dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="16dp"
-        android:text="BREW REVIEW"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/breweryName"
-        android:layout_width="143dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="30dp"
-        android:text="Brewery Name"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toStartOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.287"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header" />
-
-    <Button
+    <ImageButton
         android:id="@+id/button"
         android:layout_width="154dp"
         android:layout_height="38dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="228dp"
         android:onClick="onAddBrewReview"
-        android:text="+ ADD BREWERY REVIEW"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/addbreweryreviewbutton"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapBtn" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="76dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="72dp"
         android:onClick="onProfileClick"
-        app:layout_constraintStart_toEndOf="@+id/breweryName"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profileicon" />
 
@@ -155,35 +150,30 @@
 
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <ImageButton
         android:id="@+id/menuBtn"
         android:layout_width="121dp"
         android:layout_height="36dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="50dp"
-        android:onClick="onMenuBtn"
-        android:text="RESTAURANT MENU"
-        android:textSize="8sp"
-        app:layout_constraintBottom_toTopOf="@+id/cardOne"
-        app:layout_constraintEnd_toStartOf="@+id/mapBtn"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="1dp"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/restaurantmenubutton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/breweryName"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/breweryRating"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <ImageButton
         android:id="@+id/mapBtn"
         android:layout_width="111dp"
         android:layout_height="37dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="12dp"
-        android:text="GET DIRECTIONS"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/menuBtn"
-        app:layout_constraintTop_toBottomOf="@+id/breweryName"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/getdirectionsbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuBtn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <RatingBar
@@ -192,17 +182,15 @@
         android:layout_width="81dp"
         android:layout_height="17dp"
         android:layout_gravity="top|right"
-        android:layout_marginTop="90dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="53dp"
         android:clickable="true"
         android:isIndicator="true"
         android:numStars="5"
         android:stepSize="1"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mapBtn"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <androidx.cardview.widget.CardView
@@ -216,27 +204,29 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/breweryReviewName3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top|left"
-            android:text="Brewery Name" />
 
-        <RatingBar
-            android:id="@+id/MyRating3"
-            style="?android:attr/ratingBarStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top|right"
-            android:clickable="true"
-            android:isIndicator="true"
-            android:numStars="5"
-            android:stepSize="1"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-            android:layout_toRightOf="@+id/breweryReviewName3"/>
+            <TextView
+                android:id="@+id/breweryReviewName3"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:text="Brewery Name" />
 
-        <TextView
+            <RatingBar
+                android:id="@+id/MyRating3"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/breweryReviewName3"
+                android:clickable="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="1"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -246,15 +236,16 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <ImageButton
         android:id="@+id/button6"
-        android:layout_width="135dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="29dp"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="228dp"
         android:onClick="onAddBeerReview"
-        android:text="+ ADD BEER REVIEW"
-        android:textSize="8sp"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/addbreweryreviewbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardThree" />
 
@@ -413,21 +404,17 @@
     <RatingBar
         android:id="@+id/breweryRating"
         style="?android:attr/ratingBarStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="82dp"
+        android:layout_height="19dp"
         android:layout_gravity="top|right"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginTop="4dp"
         android:clickable="true"
         android:isIndicator="true"
         android:numStars="5"
         android:stepSize="1"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/mapBtn"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

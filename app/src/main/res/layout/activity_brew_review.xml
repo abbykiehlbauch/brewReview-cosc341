@@ -6,6 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".BeerReview">
 
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="410sp"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/BreweryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="serif"
+            android:text="Add Review"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
 
     <Spinner
         android:id="@+id/spinner"
@@ -17,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.295" />
 
     <RatingBar
         android:id="@+id/Rating"
@@ -37,14 +59,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.394" />
 
-    <Button
+    <ImageButton
         android:id="@+id/Delete"
-        android:layout_width="109dp"
+        android:layout_width="119dp"
         android:layout_height="64dp"
         android:onClick="Delete"
-        android:text="Delete"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/deletebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.887"
@@ -52,12 +76,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.929" />
 
-    <Button
+    <ImageButton
         android:id="@+id/Save"
         android:layout_width="119dp"
         android:layout_height="64dp"
         android:onClick="Save"
-        android:text="Save"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/savebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
@@ -68,8 +94,8 @@
 
     <EditText
         android:id="@+id/Review"
-        android:layout_width="344dp"
-        android:layout_height="265dp"
+        android:layout_width="347dp"
+        android:layout_height="182dp"
         android:layout_alignParentLeft="true"
         android:gravity="top"
         android:inputType="textMultiLine"
@@ -91,32 +117,34 @@
         android:id="@+id/Price"
         android:layout_width="164dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="556dp"
+        android:layout_marginBottom="500dp"
         android:text="Price:"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/BrewNameText"
-        android:layout_width="343dp"
-        android:layout_height="119dp"
-        android:layout_marginBottom="604dp"
+        android:layout_width="380dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="568dp"
+        android:gravity="center"
         android:text="Brew Name Text"
         android:textColor="#000000"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/ReviewText"
         android:layout_width="181dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="416dp"
+        android:layout_marginBottom="368dp"
         android:text="Review:"
         android:textColor="#000000"
         android:textSize="25sp"
@@ -124,7 +152,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

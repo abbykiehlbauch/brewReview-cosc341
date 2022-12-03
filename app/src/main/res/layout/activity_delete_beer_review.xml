@@ -6,22 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".DeleteBeerReview">
 
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="410sp"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/BreweryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="serif"
+            android:text="Are you sure?"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/BeerNameText"
         android:layout_width="333dp"
         android:layout_height="89dp"
         android:layout_marginBottom="472dp"
-        android:text="Are You Sure You Want To Delete Beer Review?"
+        android:text="You are about to delete this Beer review!"
+        android:fontFamily="serif"
         android:textSize="30sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/no"
         android:layout_width="121dp"
-        android:layout_height="68dp"
-        android:text="NO"
+        android:layout_height="55dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nobutton"
         android:onClick="No"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,11 +58,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.469" />
 
-    <Button
+    <ImageButton
         android:id="@+id/yes"
         android:layout_width="121dp"
-        android:layout_height="68dp"
-        android:text="YES"
+        android:layout_height="55dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/yesbutton"
         android:onClick="Yes"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
