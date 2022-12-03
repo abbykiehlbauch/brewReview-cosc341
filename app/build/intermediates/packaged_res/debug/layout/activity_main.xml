@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
         <TextView
-            android:id="@+id/welcome"
+            android:id="@+id/BreweryName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
@@ -58,52 +58,58 @@
         android:background="@drawable/square"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
     <Spinner
         android:id="@+id/sort"
-        android:layout_width="125sp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="280sp"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="294dp"
         android:layout_marginTop="130sp"
+        android:contentDescription="@string/sort_by"
         android:fontFamily="serif"
         android:minHeight="48dp"
-        android:contentDescription="@string/sort_by"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout"
         app:layout_constraintTop_toTopOf="parent" />
+
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <androidx.appcompat.widget.SearchView
                 android:id="@+id/search_bar"
-                app:defaultQueryHint="@string/search"
                 android:layout_width="270sp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="130sp"
                 android:layout_marginStart="10sp"
+                android:layout_marginTop="130sp"
+                app:defaultQueryHint="@string/search"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ListView
                 android:id="@+id/breweriesList"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:divider="@color/claret"
-                android:layout_marginTop="0sp"
                 android:layout_marginStart="10sp"
-                android:dividerHeight="4sp"
-                android:listSelector="@color/gamboge"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:smoothScrollbar="true"
+                android:layout_marginTop="0sp"
                 android:clickable="true"
+                android:divider="@color/claret"
+                android:dividerHeight="4sp"
                 android:focusable="true"
-                android:focusableInTouchMode="false"/>
+                android:focusableInTouchMode="false"
+                android:fontFamily="serif"
+                android:listSelector="@color/gamboge"
+                android:smoothScrollbar="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     TextView welcome;
     TextView name;
     ImageView profile_;
-//    RatingBar rating;
+    RatingBar rating;
     SearchView searchView_;
     Spinner sort;
     ListView breweries;
@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<HashMap<String,String>> list5 = new ArrayList<HashMap<String,String>>();
     ArrayList<HashMap<String,String>> list6 = new ArrayList<HashMap<String,String>>();
     private SimpleAdapter sa;
-//    String[] breweriesList_;
-//    ArrayList<String> list;
-//    ArrayList<String> list2;
     ArrayAdapter<String> adapter_;
     ArrayAdapter<String> adapter2;
 
@@ -102,13 +99,15 @@ public class MainActivity extends AppCompatActivity {
             LOBR.writeToFile(LOBR, getApplicationContext());
         }
 
-
-        welcome = findViewById(R.id.welcome);
+        welcome = findViewById(R.id.BreweryName);
         searchView_ = findViewById(R.id.search_bar);
         sort = findViewById(R.id.sort);
         profile_ = findViewById(R.id.userProfile);
         breweries = findViewById(R.id.breweriesList);
         name = findViewById(R.id.textView1);
+        rating = findViewById(R.id.rating);
+
+        rating.setRating(Float.parseFloat(String.valueOf(breweries)));
 
         breweries.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
