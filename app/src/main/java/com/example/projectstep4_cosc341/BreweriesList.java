@@ -13,6 +13,5 @@ public class BreweriesList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breweries_list);
 
-
     }
 }
