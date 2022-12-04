@@ -45,11 +45,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<HashMap<String,String>> list2 = new ArrayList<HashMap<String,String>>();
     ArrayList<HashMap<String,String>> list3 = new ArrayList<HashMap<String,String>>();
     ArrayList<HashMap<String,String>> list4 = new ArrayList<HashMap<String,String>>();
-    ArrayList<HashMap<String,String>> list5 = new ArrayList<HashMap<String,String>>();
-    ArrayList<HashMap<String,String>> list6 = new ArrayList<HashMap<String,String>>();
     private SimpleAdapter sa;
-    ArrayAdapter<String> adapter_;
-    ArrayAdapter<String> adapter2;
 
     static int id=0;
     static ArrayList<User> Users;
@@ -106,8 +102,6 @@ public class MainActivity extends AppCompatActivity {
         breweries = findViewById(R.id.breweriesList);
         name = findViewById(R.id.textView1);
         rating = findViewById(R.id.rating);
-
-        rating.setRating(Float.parseFloat(String.valueOf(breweries)));
 
         breweries.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
