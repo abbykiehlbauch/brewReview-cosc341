@@ -35,6 +35,7 @@
         android:layout_height="89dp"
         android:layout_marginBottom="472dp"
         android:text="You are about to delete this Beer review!"
+        android:textColor="@color/prussian_blue"
         android:fontFamily="serif"
         android:textSize="30sp"
         android:gravity="center"
