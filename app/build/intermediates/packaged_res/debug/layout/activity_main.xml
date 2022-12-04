@@ -87,8 +87,7 @@
                 android:listSelector="@color/gamboge"
                 android:smoothScrollbar="true"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:tooltipText="Select a brewery to read views"/>
+                app:layout_constraintTop_toTopOf="parent"/>
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
