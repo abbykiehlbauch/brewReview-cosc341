@@ -112,7 +112,12 @@ id nav_search
 id nextBtn
 id no
 id previousBtn
-id rating
+id rating1
+id rating2
+id rating3
+id rating4
+id rating5
+id rating6
 id relativeLayout
 id scrollViewUser
 id search_bar

@@ -3080,7 +3080,12 @@ id previousBtn
 id progress_circular
 id progress_horizontal
 id radio
-id rating
+id rating1
+id rating2
+id rating3
+id rating4
+id rating5
+id rating6
 id ratio
 id rectangles
 id relativeLayout

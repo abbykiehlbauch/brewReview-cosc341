@@ -38,27 +38,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:focusable="true" />
-    <ImageView
-        android:id="@+id/cover"
-        android:layout_width="60sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="72sp"
-        android:contentDescription="@string/user_cover"
-        android:background="@drawable/circle"
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="275sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85sp"
+        android:layout_marginStart="120sp"
+        android:fontFamily="serif"
+        android:textColor="@color/prussian_blue"
+        android:textSize="20sp"
+        android:text="Select a brewery to read the reviews or write a review"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
-    <ImageView
-        android:id="@+id/cover2"
-        android:layout_width="60sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="74sp"
-        android:contentDescription="@string/user_cover"
-        android:background="@drawable/square"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <Spinner
         android:id="@+id/sort"
         android:layout_width="114dp"
@@ -70,7 +61,6 @@
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout"
         app:layout_constraintTop_toTopOf="parent" />
-
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
@@ -90,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10sp"
                 android:layout_marginTop="130sp"
+                android:fontFamily="serif"
                 app:defaultQueryHint="@string/search"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
