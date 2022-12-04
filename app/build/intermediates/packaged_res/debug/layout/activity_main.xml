@@ -38,27 +38,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:focusable="true" />
-    <ImageView
-        android:id="@+id/cover"
-        android:layout_width="60sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="72sp"
-        android:contentDescription="@string/user_cover"
-        android:background="@drawable/circle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-    <ImageView
-        android:id="@+id/cover2"
-        android:layout_width="60sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="74sp"
-        android:contentDescription="@string/user_cover"
-        android:background="@drawable/square"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <Spinner
         android:id="@+id/sort"
         android:layout_width="114dp"
@@ -70,7 +49,6 @@
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout"
         app:layout_constraintTop_toTopOf="parent" />
-
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
@@ -90,10 +68,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10sp"
                 android:layout_marginTop="130sp"
+                android:fontFamily="serif"
                 app:defaultQueryHint="@string/search"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
             <ListView
                 android:id="@+id/breweriesList"
                 android:layout_width="wrap_content"
@@ -109,7 +87,8 @@
                 android:listSelector="@color/gamboge"
                 android:smoothScrollbar="true"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:tooltipText="Select a brewery to read views"/>
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
