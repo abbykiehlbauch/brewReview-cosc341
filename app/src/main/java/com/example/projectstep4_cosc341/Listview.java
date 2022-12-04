@@ -134,6 +134,7 @@ public class Listview extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("BrewName", BrewName);
         intent.putExtras(bundle);
+        startActivity(intent);
     }
 
     public void onBrewreviewClick(View view){
