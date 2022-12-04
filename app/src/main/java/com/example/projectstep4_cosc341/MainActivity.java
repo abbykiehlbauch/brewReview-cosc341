@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     TextView welcome;
     TextView name;
     ImageView profile_;
-    RatingBar rating;
+    RatingBar rating1, rating2, rating3, rating4, rating5, rating6;
     SearchView searchView_;
     Spinner sort;
     ListView breweries;
@@ -101,7 +101,13 @@ public class MainActivity extends AppCompatActivity {
         profile_ = findViewById(R.id.userProfile);
         breweries = findViewById(R.id.breweriesList);
         name = findViewById(R.id.textView1);
-        rating = findViewById(R.id.rating);
+
+        rating1 = findViewById(R.id.rating1);
+        rating2 = findViewById(R.id.rating2);
+        rating3 = findViewById(R.id.rating3);
+        rating4 = findViewById(R.id.rating4);
+        rating5 = findViewById(R.id.rating5);
+        rating6 = findViewById(R.id.rating6);
 
         breweries.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -202,6 +208,13 @@ public class MainActivity extends AppCompatActivity {
             list4.add(item4);
         }
 
+        rating1.setRating(3);
+        rating2.setRating(5);
+        rating3.setRating(4);
+        rating4.setRating(2);
+        rating5.setRating(4);
+        rating6.setRating(4);
+
         searchView_.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -231,15 +244,39 @@ public class MainActivity extends AppCompatActivity {
                 if (item.equals("SORT BY")) {
                     sa = new SimpleAdapter(MainActivity.this, list1, R.layout.activity_breweries_list, new String[]{"line1", "line2"}, new int[]{R.id.textView1, R.id.textView2});
                     ((ListView) findViewById(R.id.breweriesList)).setAdapter(sa);
+                    rating1.setRating(3);
+                    rating2.setRating(5);
+                    rating3.setRating(4);
+                    rating4.setRating(2);
+                    rating5.setRating(4);
+                    rating6.setRating(4);
                 } else if (item.equals("NEAR ME")) {
                     sa = new SimpleAdapter(MainActivity.this, list2, R.layout.activity_breweries_list, new String[]{"line1", "line2"}, new int[]{R.id.textView1, R.id.textView2});
                     ((ListView) findViewById(R.id.breweriesList)).setAdapter(sa);
+                    rating1.setRating(3);
+                    rating2.setRating(4);
+                    rating3.setRating(4);
+                    rating4.setRating(2);
+                    rating5.setRating(4);
+                    rating6.setRating(5);
                 } else if (item.equals("HIGHEST RATING")) {
                     sa = new SimpleAdapter(MainActivity.this, list3, R.layout.activity_breweries_list, new String[]{"line1", "line2"}, new int[]{R.id.textView1, R.id.textView2});
                     ((ListView) findViewById(R.id.breweriesList)).setAdapter(sa);
+                    rating1.setRating(5);
+                    rating2.setRating(4);
+                    rating3.setRating(4);
+                    rating4.setRating(4);
+                    rating5.setRating(3);
+                    rating6.setRating(2);
                 } else if (item.equals("LARGEST SELECTION")) {
                     sa = new SimpleAdapter(MainActivity.this, list4, R.layout.activity_breweries_list, new String[]{"line1", "line2"}, new int[]{R.id.textView1, R.id.textView2});
                     ((ListView) findViewById(R.id.breweriesList)).setAdapter(sa);
+                    rating1.setRating(2);
+                    rating2.setRating(5);
+                    rating3.setRating(3);
+                    rating4.setRating(4);
+                    rating5.setRating(4);
+                    rating6.setRating(4);
                 }
             }
 
@@ -287,7 +324,7 @@ public class MainActivity extends AppCompatActivity {
             {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"},
             {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
             {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"},
-            {"Kelowna Beer Institute", "14.0", "3", "8", "Great food"},
+            {"Kelowna Beer Institute", "14.0", "4", "8", "Great food"},
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
             {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"}};
 
@@ -295,7 +332,7 @@ public class MainActivity extends AppCompatActivity {
             {"Bad Tattoo Brewing", "13.0", "2", "11", "PIZZA"},
             {"Shoreline Brewing", "15.0", "5", "10", "View of the lake"},
             {"Kelowna Brewing Company", "1.4", "3", "9", "University Pub"},
-            {"Kelowna Beer Institute", "14.0", "3", "8", "Great food"},
+            {"Kelowna Beer Institute", "14.0", "4", "8", "Great food"},
             {"Red Bird Brewing", "12.0", "4", "6", "Party Central"},
             {"Vice and Virtue Brewing Co.", "12.0", "4", "6", "Wheelchair Accessible"}};
 }
