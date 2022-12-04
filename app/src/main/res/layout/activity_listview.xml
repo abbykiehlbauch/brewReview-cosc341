@@ -192,23 +192,6 @@
         app:layout_constraintTop_toBottomOf="@+id/menuBtn"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <RatingBar
-        android:id="@+id/myRating"
-        style="?android:attr/ratingBarStyleSmall"
-        android:layout_width="81dp"
-        android:layout_height="17dp"
-        android:layout_gravity="top|right"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="53dp"
-        android:clickable="true"
-        android:isIndicator="true"
-        android:numStars="5"
-        android:stepSize="1"
-        app:layout_constraintEnd_toStartOf="@+id/mapBtn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardThree"
         android:layout_width="353dp"
@@ -284,7 +267,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
-            android:paddingRight="15dp"
+            android:paddingRight="50dp"
             android:text="Brewery Name"
             android:fontFamily="serif" />
 
@@ -295,7 +278,7 @@
             android:layout_gravity="top|left"
             android:paddingEnd="14dp"
             android:text="Beer Name"
-            android:layout_toRightOf="@+id/beerBreweryReviewName"
+            android:layout_below="@+id/beerBreweryReviewName"
             android:fontFamily="serif" />
 
         <RatingBar
@@ -308,7 +291,7 @@
             android:isIndicator="true"
             android:numStars="5"
             android:stepSize="1"
-            android:layout_toRightOf="@+id/beerName"/>
+            android:layout_toRightOf="@+id/beerBreweryReviewName"/>
 
         <TextView
             android:id="@+id/beerTextView"
@@ -316,7 +299,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|left"
             android:text="First sentence of review"
-            android:layout_below="@+id/beerBreweryReviewName"
+            android:layout_below="@+id/beerName"
             android:fontFamily="serif" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
@@ -339,7 +322,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
-            android:paddingRight="15dp"
+            android:paddingRight="50dp"
             android:text="Brewery Name"
             android:fontFamily="serif" />
 
@@ -350,7 +333,7 @@
             android:layout_gravity="top|left"
             android:paddingEnd="14dp"
             android:text="Beer Name"
-            android:layout_toRightOf="@+id/beerBreweryReviewName2"
+            android:layout_below="@+id/beerBreweryReviewName2"
             android:fontFamily="serif" />
 
         <RatingBar
@@ -363,14 +346,14 @@
             android:isIndicator="true"
             android:numStars="5"
             android:stepSize="1"
-            android:layout_toRightOf="@id/beerName2"/>
+            android:layout_toRightOf="@id/beerBreweryReviewName2"/>
 
         <TextView
             android:id="@+id/beerTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|left"
-            android:layout_below="@+id/beerBreweryReviewName2"
+            android:layout_below="@+id/beerName2"
             android:text="First sentence of review"
             android:fontFamily="serif" />
         </RelativeLayout>
@@ -392,7 +375,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
-            android:paddingRight="15dp"
+            android:paddingRight="50dp"
             android:text="Brewery Name"
             android:fontFamily="serif" />
 
@@ -403,7 +386,7 @@
             android:layout_gravity="top|left"
             android:paddingEnd="14dp"
             android:text="Beer Name"
-            android:layout_toRightOf="@+id/beerBreweryReviewName3"
+            android:layout_below="@+id/beerBreweryReviewName3"
             android:fontFamily="serif" />
 
         <RatingBar
@@ -416,7 +399,7 @@
             android:isIndicator="true"
             android:numStars="5"
             android:stepSize="1"
-            android:layout_toRightOf="@+id/beerName3"/>
+            android:layout_toRightOf="@+id/beerBreweryReviewName3"/>
 
         <TextView
             android:id="@+id/beerTextView3"
@@ -424,7 +407,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|left"
             android:text="First sentence of review"
-            android:layout_below="@+id/beerBreweryReviewName3"
+            android:layout_below="@+id/beerName3"
             android:fontFamily="serif" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
