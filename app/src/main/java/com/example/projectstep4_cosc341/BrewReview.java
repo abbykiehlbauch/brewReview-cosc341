@@ -52,12 +52,6 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-        save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(BrewReview.this, "Your review has been posted.", Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
 
@@ -87,7 +81,8 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
                 reviewList.add(new Review(name,rating,review,price));
                 LOR= new ReviewList(reviewList);
                 LOR.writeToFile(LOR,getApplicationContext());
-                System.out.println("made it1");
+
+                Toast.makeText(BrewReview.this, "Your review has been posted.", Toast.LENGTH_LONG).show();
                 finish();
             }else{
                 reviewList=LOR.getReviewList();
@@ -95,7 +90,10 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
                 LOR= new ReviewList(reviewList);
                 LOR.writeToFile(LOR,getApplicationContext());
                 System.out.println("made it2");
+
+                Toast.makeText(BrewReview.this, "Your review has been posted.", Toast.LENGTH_LONG).show();
                 finish();
+
             }
 
 

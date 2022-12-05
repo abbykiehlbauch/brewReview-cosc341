@@ -71,14 +71,16 @@ public class BeerReview extends AppCompatActivity {
                 beerReviewList.add(new bReview(name,type,review,rating));
                 LOBR= new BeerReviewList(beerReviewList);
                 LOBR.writeToFile(LOBR,getApplicationContext());
-                System.out.println("made it1");
+
+                Toast.makeText(BeerReview.this, "Your review has been posted.", Toast.LENGTH_LONG).show();
                 finish();
             }else{
                 beerReviewList=LOBR.getBeerReviewList();
                 beerReviewList.add(new bReview(name,type,review,rating));
                 LOBR= new BeerReviewList(beerReviewList);
                 LOBR.writeToFile(LOBR,getApplicationContext());
-                System.out.println("made it2");
+
+                Toast.makeText(BeerReview.this, "Your review has been posted.", Toast.LENGTH_LONG).show();
                 finish();
             }
 

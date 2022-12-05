@@ -70,6 +70,7 @@ public class AllBeerReview extends AppCompatActivity {
                 ratingView.setClickable(false);
                 ratingView.setHovered(false);
 
+
                 typeView.setText(type);
                 typeView.setTextSize(18);
                 typeView.setTextColor(Color.BLACK);

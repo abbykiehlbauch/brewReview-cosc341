@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="410sp"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/BreweryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="serif"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/userProfile"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/profileicon"
+        android:clickable="true"
+        android:contentDescription="@string/user_icon"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="117sp"
+        android:text="Click on a brewery to see reviews and write your own!"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/sort"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="130sp"
+        android:contentDescription="@string/sort_by"
+        android:fontFamily="serif"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar"
+                android:layout_width="270sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="130sp"
+                android:fontFamily="serif"
+                app:defaultQueryHint="@string/search"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" >
+
+            </androidx.appcompat.widget.SearchView>
+            <ListView
+                android:id="@+id/breweriesList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="0sp"
+                android:clickable="true"
+                android:divider="@color/claret"
+                android:dividerHeight="4sp"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:fontFamily="serif"
+                android:listSelector="@color/gamboge"
+                android:smoothScrollbar="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RatingBar
+            android:id="@+id/rating1"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="195sp"/>
+        <RatingBar
+            android:id="@+id/rating2"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="65sp"/>
+        <RatingBar
+            android:id="@+id/rating3"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="65sp"/>
+        <RatingBar
+            android:id="@+id/rating4"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="67sp"/>
+        <RatingBar
+            android:id="@+id/rating5"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="67sp"/>
+        <RatingBar
+            android:id="@+id/rating6"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285sp"
+            android:layout_marginTop="65sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
