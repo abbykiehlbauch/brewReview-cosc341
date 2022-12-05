@@ -144,7 +144,7 @@ public class Listview extends AppCompatActivity {
         String name=bundle1.get("name").toString();
         System.out.println(name);
 
-        Intent intent2= new Intent(this, BrewReview.class);
+        Intent intent2= new Intent(this, AllBreweryReview.class);
         Bundle bundle2=new Bundle();
             bundle2.putString("name",name);
             intent2.putExtras(bundle2);
@@ -152,7 +152,7 @@ public class Listview extends AppCompatActivity {
 
     }
     public void onBeerreviewClick(View view){
-        Intent intent= new Intent(this, BeerReview.class);
+        Intent intent= new Intent(this, AllBeerReview.class);
         startActivity(intent);
 
     }

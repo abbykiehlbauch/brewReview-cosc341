@@ -429,14 +429,14 @@
         app:layout_constraintTop_toBottomOf="@+id/top"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
-<<<<<<< HEAD
+
     <Button
         android:id="@+id/seeAllBreweryR"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="232dp"
-        android:onClick="seeAllBrewR"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onBrewreviewClick"
         android:text="See All Brewery Reviews"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -446,14 +446,14 @@
         android:id="@+id/seeAllBeerR"
         android:layout_width="wrap_content"
         android:layout_height="38dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="248dp"
-        android:onClick="seeAllBeerR"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="onBeerreviewClick"
         android:text="See all Beer Reviews"
         android:textSize="8sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardThree" />
-=======
+
     <ImageButton
         android:id="@+id/button"
         android:layout_width="171dp"
@@ -466,6 +466,6 @@
         android:textSize="8sp"
         app:layout_constraintBottom_toTopOf="@+id/cardOne"
         app:layout_constraintStart_toStartOf="parent" />
->>>>>>> bc0f0b914660e2f46fde81911b1e8884db68300e
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
