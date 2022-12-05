@@ -32,7 +32,6 @@ public class AllBreweryReview extends AppCompatActivity {
         Reviews=LOR.getReviewList();
 
         TableLayout displayReviews=(TableLayout) findViewById(R.id.displayBreweryReview);
-         System.out.println(Brewname+Reviews.get(0).brewery);
         if(Reviews==null||Reviews.isEmpty()){
 
             TableRow row1=new TableRow(this);

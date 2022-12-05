@@ -430,27 +430,32 @@
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 
-    <Button
+    <ImageButton
         android:id="@+id/seeAllBreweryR"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="28dp"
         android:onClick="onBrewreviewClick"
-        android:text="See All Brewery Reviews"
-        android:textSize="8sp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/see_all_brewery_reviews"
+        app:layout_constraintBottom_toTopOf="@+id/cardOne"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/mapBtn" />
 
-    <Button
+    <ImageButton
         android:id="@+id/seeAllBeerR"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="28dp"
         android:onClick="onBeerreviewClick"
-        android:text="See all Beer Reviews"
-        android:textSize="8sp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/see_all_beer_reviews"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardThree" />
 
@@ -458,7 +463,7 @@
         android:id="@+id/button"
         android:layout_width="171dp"
         android:layout_height="30dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="28dp"
         android:onClick="onAddBrewReview"
         android:padding="0dp"
         android:scaleType="fitCenter"

@@ -17,15 +17,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024"
         app:srcCompat="@drawable/profileicon" />
-    <Button
+    <ImageButton
         android:id="@+id/button2"
-        android:layout_width="95dp"
-        android:layout_height="44dp"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="300dp"
         android:onClick="backbtn"
-        android:text="Back"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backarrow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
