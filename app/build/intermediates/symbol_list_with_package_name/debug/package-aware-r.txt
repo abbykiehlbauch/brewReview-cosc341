@@ -3033,7 +3033,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id myRating
 id nav_search
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3187,6 +3186,7 @@ id textView
 id textView1
 id textView2
 id textView3
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

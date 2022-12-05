@@ -107,7 +107,6 @@ id imageView8
 id linearLayout
 id mapBtn
 id menuBtn
-id myRating
 id nav_search
 id nextBtn
 id no
@@ -129,6 +128,7 @@ id textView
 id textView1
 id textView2
 id textView3
+id textView6
 id top
 id userProfile
 id yes

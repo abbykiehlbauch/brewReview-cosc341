@@ -52,9 +52,6 @@
             android:name="com.example.projectstep4_cosc341.BreweriesList"
             android:exported="false" />
         <activity
-            android:name="com.example.projectstep4_cosc341.viewMenu"
-            android:exported="false" />
-        <activity
             android:name="com.example.projectstep4_cosc341.userProfile"
             android:exported="false"
             android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
