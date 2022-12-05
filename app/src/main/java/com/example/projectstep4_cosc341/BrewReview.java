@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -23,6 +24,7 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
     RatingBar Rating;
     Spinner spinner;
     ArrayList<Review> reviewList;
+    ImageView save;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,15 +33,16 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
 
         BrewNameText = (TextView) findViewById(R.id.BrewNameText);
         //set beername text
-        Intent intent =getIntent();
+        Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
-        String name=bundle.getString("name");
+        String name = bundle.getString("name");
         System.out.println(name);
         BrewNameText.setText(name);
 
         Review = (EditText) findViewById(R.id.Review);
-        Rating= (RatingBar) findViewById(R.id.Rating);
+        Rating = (RatingBar) findViewById(R.id.Rating);
         spinner = (Spinner) findViewById(R.id.spinner);
+        save = findViewById(R.id.Save);
 
 
         ArrayAdapter<CharSequence> adapter =
@@ -49,9 +52,13 @@ public class BrewReview extends AppCompatActivity implements AdapterView.OnItemS
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(BrewReview.this, "Your review has been posted.", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
-
-
 
 
 

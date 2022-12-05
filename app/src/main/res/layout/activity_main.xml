@@ -46,9 +46,10 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="117sp"
         android:text="Click on a brewery to see reviews and write your own!"
-        app:layout_constraintBottom_toTopOf="@+id/sort"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner

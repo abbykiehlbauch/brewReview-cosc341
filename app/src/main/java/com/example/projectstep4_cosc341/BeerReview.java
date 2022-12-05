@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class BeerReview extends AppCompatActivity {
     EditText Review;
     RatingBar Rating;
     ArrayList<bReview> beerReviewList;
+    ImageButton save;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,15 @@ public class BeerReview extends AppCompatActivity {
         BeerType = (EditText) findViewById(R.id.BeerType);
         Review = (EditText) findViewById(R.id.Review);
         Rating= (RatingBar) findViewById(R.id.Rating);
+        save = findViewById(R.id.Save);
+
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(BeerReview.this, "Your review has been posted.", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
     }
     public void Save(View view){
