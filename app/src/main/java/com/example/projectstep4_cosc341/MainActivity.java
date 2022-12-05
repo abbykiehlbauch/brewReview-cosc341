@@ -222,12 +222,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 sa.getFilter().filter(query);
+                rating1.setVisibility(View.INVISIBLE);
+                rating2.setVisibility(View.INVISIBLE);
+                rating3.setVisibility(View.INVISIBLE);
+                rating4.setVisibility(View.INVISIBLE);
+                rating5.setVisibility(View.INVISIBLE);
+                rating6.setVisibility(View.INVISIBLE);
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
                 sa.getFilter().filter(newText);
+                rating1.setVisibility(View.INVISIBLE);
+                rating2.setVisibility(View.INVISIBLE);
+                rating3.setVisibility(View.INVISIBLE);
+                rating4.setVisibility(View.INVISIBLE);
+                rating5.setVisibility(View.INVISIBLE);
+                rating6.setVisibility(View.INVISIBLE);
                 return false;
             }
         });
