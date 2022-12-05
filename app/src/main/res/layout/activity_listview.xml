@@ -430,4 +430,28 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/seeAllBreweryR"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="232dp"
+        android:onClick="seeAllBrewR"
+        android:text="See All Brewery Reviews"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapBtn" />
+
+    <Button
+        android:id="@+id/seeAllBeerR"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="248dp"
+        android:onClick="seeAllBeerR"
+        android:text="See all Beer Reviews"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardThree" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

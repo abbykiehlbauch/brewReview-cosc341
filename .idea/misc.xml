@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_all_beer_review.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_all_beer_reviews.xml" value="0.1" />
+        <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_all_brewery_review.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_all_brewery_reviews.xml" value="0.1" />
         <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_brew_review.xml" value="0.346875" />
+        <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSC341/app/src/main/res/layout/activity_listview.xml" value="0.175" />
         <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSCClone/app/src/main/res/layout/activity_beer_review.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSCClone/app/src/main/res/layout/activity_brew_review.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/lrae2/AndroidStudioProjects/ProjectStep4COSCClone/app/src/main/res/layout/activity_listview.xml" value="0.26927083333333335" />

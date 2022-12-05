@@ -86,6 +86,8 @@ id cardThree
 id cardTwo
 id cover
 id cover2
+id displayBeerReview
+id displayBreweryReview
 id displayReview
 id displayReviews
 id header
@@ -102,6 +104,8 @@ id previousBtn
 id rating
 id scrollViewUser
 id search_bar
+id seeAllBeerR
+id seeAllBreweryR
 id showBeerReviewButton
 id showReviewsButton
 id sort
@@ -114,6 +118,8 @@ id top
 id userProfile
 id welcome
 id yes
+layout activity_all_beer_review
+layout activity_all_brewery_review
 layout activity_beer_review
 layout activity_brew_review
 layout activity_breweries_list

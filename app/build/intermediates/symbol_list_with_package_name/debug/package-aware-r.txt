@@ -2874,6 +2874,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id displayBeerReview
+id displayBreweryReview
 id displayReview
 id displayReviews
 id dragAnticlockwise
@@ -3098,6 +3100,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seeAllBeerR
+id seeAllBreweryR
 id select_dialog_listview
 id selected
 id selection_type
@@ -3341,6 +3345,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_all_beer_review
+layout activity_all_brewery_review
 layout activity_beer_review
 layout activity_brew_review
 layout activity_breweries_list

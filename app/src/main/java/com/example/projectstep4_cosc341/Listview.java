@@ -134,6 +134,7 @@ public class Listview extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("BrewName", BrewName);
         intent.putExtras(bundle);
+        startActivity(intent);
     }
 
     public void onBrewreviewClick(View view){
@@ -154,5 +155,20 @@ public class Listview extends AppCompatActivity {
         Intent intent= new Intent(this, BeerReview.class);
         startActivity(intent);
 
+    }
+    public void seeAllBeerR(View v){
+        Intent intent=new Intent(this,AllBeerReview.class);
+        startActivity(intent);
+    }
+    public void seeAllBrewR(View v){
+        Intent Nameintent= getIntent();
+        Bundle bundle1 = Nameintent.getExtras();
+        String name=bundle1.get("name").toString();
+
+        Intent intent=new Intent(this,AllBreweryReview.class);
+        Bundle bundle=new Bundle();
+        bundle.putString("name",name);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
 }

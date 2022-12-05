@@ -11,7 +11,7 @@
 9-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:6:5-68:19
+11-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:6:5-74:19
 12        android:allowBackup="true"
 12-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,129 +29,140 @@
 19-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:13:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.ProjectStep4COSC341" >
-22-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:14:9-57
-23        <activity
-23-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:16:9-22:20
-24            android:name="com.example.projectstep4_cosc341.DeleteBrewReview"
-24-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:17:13-45
-25            android:exported="false" >
-25-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:18:13-37
-26            <meta-data
-26-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
-27                android:name="android.app.lib_name"
-27-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
-28                android:value="" />
-28-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
-29        </activity>
-30        <activity
-30-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:23:9-29:20
-31            android:name="com.example.projectstep4_cosc341.DeleteBeerReview"
-31-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:24:13-45
-32            android:exported="false" >
-32-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-37
-33            <meta-data
-33-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
-34                android:name="android.app.lib_name"
-34-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
-35                android:value="" />
-35-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
-36        </activity>
-37        <activity
-37-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:30:9-36:20
-38            android:name="com.example.projectstep4_cosc341.BrewReview"
-38-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:31:13-39
-39            android:exported="false" >
-39-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:32:13-37
-40            <meta-data
-40-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
-41                android:name="android.app.lib_name"
-41-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
-42                android:value="" />
-42-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
-43        </activity>
-44        <activity
-44-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:37:9-43:20
-45            android:name="com.example.projectstep4_cosc341.BeerReview"
-45-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:38:13-39
-46            android:exported="false" >
-46-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:39:13-37
-47            <meta-data
-47-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
-48                android:name="android.app.lib_name"
-48-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
-49                android:value="" />
-49-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
-50        </activity>
-51        <activity
-51-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:44:9-46:40
-52            android:name="com.example.projectstep4_cosc341.BreweriesList"
-52-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:45:13-42
-53            android:exported="false" />
-53-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:46:13-37
-54        <activity
-54-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:47:9-54:20
-55            android:name="com.example.projectstep4_cosc341.userProfile"
-55-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:48:13-40
-56            android:exported="false"
-56-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:49:13-37
-57            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
-57-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:50:13-55
-58            <meta-data
-58-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:13-21:36
-59                android:name="android.app.lib_name"
-59-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:17-52
-60                android:value="" />
-60-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:17-33
-61        </activity>
-62        <activity
-62-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:55:9-58:58
-63            android:name="com.example.projectstep4_cosc341.Listview"
-63-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:56:13-37
-64            android:exported="false"
-64-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:57:13-37
-65            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" />
-65-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:58:13-55
-66        <activity
-66-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:59:9-67:20
-67            android:name="com.example.projectstep4_cosc341.MainActivity"
-67-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:60:13-41
-68            android:exported="true" >
-68-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:61:13-36
-69            <intent-filter>
-69-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:62:13-66:29
-70                <action android:name="android.intent.action.MAIN" />
-70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:17-69
-70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:25-66
-71
-72                <category android:name="android.intent.category.LAUNCHER" />
-72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:17-77
-72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:27-74
-73            </intent-filter>
-74        </activity>
-75
-76        <provider
-76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-78            android:authorities="com.example.projectstep4_cosc341.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-80            <meta-data
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-86        </provider>
-87    </application>
-88
-89</manifest>
+21        android:theme="@style/Theme.ProjectStep4COSC341" >
+21-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:14:9-57
+22        <activity
+22-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:16:9-18:40
+23            android:name="com.example.projectstep4_cosc341.AllBreweryReview"
+23-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:17:13-45
+24            android:exported="false" />
+24-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:18:13-37
+25        <activity
+25-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:19:9-21:40
+26            android:name="com.example.projectstep4_cosc341.AllBeerReview"
+26-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:20:13-42
+27            android:exported="false" />
+27-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:21:13-37
+28        <activity
+28-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:22:9-28:20
+29            android:name="com.example.projectstep4_cosc341.DeleteBrewReview"
+29-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:23:13-45
+30            android:exported="false" >
+30-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:24:13-37
+31            <meta-data
+31-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-27:36
+32                android:name="android.app.lib_name"
+32-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:26:17-52
+33                android:value="" />
+33-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:27:17-33
+34        </activity>
+35        <activity
+35-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:29:9-35:20
+36            android:name="com.example.projectstep4_cosc341.DeleteBeerReview"
+36-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:30:13-45
+37            android:exported="false" >
+37-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:31:13-37
+38            <meta-data
+38-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-27:36
+39                android:name="android.app.lib_name"
+39-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:26:17-52
+40                android:value="" />
+40-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:27:17-33
+41        </activity>
+42        <activity
+42-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:36:9-42:20
+43            android:name="com.example.projectstep4_cosc341.BrewReview"
+43-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:37:13-39
+44            android:exported="false" >
+44-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:38:13-37
+45            <meta-data
+45-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-27:36
+46                android:name="android.app.lib_name"
+46-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:26:17-52
+47                android:value="" />
+47-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:27:17-33
+48        </activity>
+49        <activity
+49-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:43:9-49:20
+50            android:name="com.example.projectstep4_cosc341.BeerReview"
+50-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:44:13-39
+51            android:exported="false" >
+51-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:45:13-37
+52            <meta-data
+52-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-27:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:26:17-52
+54                android:value="" />
+54-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:27:17-33
+55        </activity>
+56        <activity
+56-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:50:9-52:40
+57            android:name="com.example.projectstep4_cosc341.BreweriesList"
+57-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:51:13-42
+58            android:exported="false" />
+58-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:52:13-37
+59        <activity
+59-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:53:9-60:20
+60            android:name="com.example.projectstep4_cosc341.userProfile"
+60-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:54:13-40
+61            android:exported="false"
+61-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:55:13-37
+62            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" >
+62-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:56:13-55
+63            <meta-data
+63-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:25:13-27:36
+64                android:name="android.app.lib_name"
+64-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:26:17-52
+65                android:value="" />
+65-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:27:17-33
+66        </activity>
+67        <activity
+67-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:61:9-64:58
+68            android:name="com.example.projectstep4_cosc341.Listview"
+68-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:62:13-37
+69            android:exported="false"
+69-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:63:13-37
+70            android:parentActivityName="com.example.projectstep4_cosc341.MainActivity" />
+70-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:64:13-55
+71        <activity
+71-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:65:9-73:20
+72            android:name="com.example.projectstep4_cosc341.MainActivity"
+72-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:66:13-41
+73            android:exported="true" >
+73-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:67:13-36
+74            <intent-filter>
+74-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:68:13-72:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:69:17-69
+75-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:69:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:71:17-77
+77-->C:\Users\lrae2\AndroidStudioProjects\ProjectStep4COSC341\app\src\main\AndroidManifest.xml:71:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.example.projectstep4_cosc341.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lrae2\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lrae2\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>
