@@ -80,9 +80,9 @@
         android:id="@+id/button2"
         android:layout_width="74dp"
         android:layout_height="58dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="320dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="17dp"
         android:onClick="backbtn"
         android:padding="0dp"
         android:scaleType="fitCenter"
@@ -95,32 +95,30 @@
         android:id="@+id/imageView"
         android:layout_width="56dp"
         android:layout_height="57dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="72dp"
         android:onClick="onProfileClick"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profileicon" />
-
     <ImageView
         android:id="@+id/cover"
         android:layout_width="56dp"
         android:layout_height="57dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="71dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="72dp"
         android:background="@drawable/circle"
-        app:layout_constraintBottom_toTopOf="@+id/cardOne"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
     <ImageView
         android:id="@+id/cover2"
         android:layout_width="56dp"
         android:layout_height="57dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="72dp"
         android:background="@drawable/square"
-        app:layout_constraintStart_toEndOf="@+id/menuBtn"
-        app:layout_constraintTop_toBottomOf="@+id/top" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardTwo"
@@ -431,6 +429,31 @@
         app:layout_constraintTop_toBottomOf="@+id/top"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
+<<<<<<< HEAD
+    <Button
+        android:id="@+id/seeAllBreweryR"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="232dp"
+        android:onClick="seeAllBrewR"
+        android:text="See All Brewery Reviews"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapBtn" />
+
+    <Button
+        android:id="@+id/seeAllBeerR"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="248dp"
+        android:onClick="seeAllBeerR"
+        android:text="See all Beer Reviews"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardThree" />
+=======
     <ImageButton
         android:id="@+id/button"
         android:layout_width="171dp"
@@ -443,5 +466,6 @@
         android:textSize="8sp"
         app:layout_constraintBottom_toTopOf="@+id/cardOne"
         app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> bc0f0b914660e2f46fde81911b1e8884db68300e
 
 </androidx.constraintlayout.widget.ConstraintLayout>
