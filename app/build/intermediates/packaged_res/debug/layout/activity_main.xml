@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
+
     <LinearLayout
         android:id="@+id/top"
         android:layout_width="410sp"
@@ -25,19 +26,31 @@
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </LinearLayout>
+
     <ImageView
         android:id="@+id/userProfile"
         android:layout_width="60sp"
         android:layout_height="50sp"
         android:layout_marginStart="20sp"
-        android:layout_marginTop="75sp"
-        android:contentDescription="@string/user_icon"
+        android:layout_marginTop="60dp"
         android:background="@drawable/profileicon"
         android:clickable="true"
+        android:contentDescription="@string/user_icon"
+        android:focusable="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:focusable="true" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on a brewery to see reviews and write your own!"
+        app:layout_constraintBottom_toTopOf="@+id/sort"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Spinner
         android:id="@+id/sort"
         android:layout_width="114dp"
@@ -49,6 +62,7 @@
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout"
         app:layout_constraintTop_toTopOf="parent" />
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
@@ -71,7 +85,9 @@
                 android:fontFamily="serif"
                 app:defaultQueryHint="@string/search"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" >
+
+            </androidx.appcompat.widget.SearchView>
             <ListView
                 android:id="@+id/breweriesList"
                 android:layout_width="wrap_content"
@@ -88,6 +104,7 @@
                 android:smoothScrollbar="true"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
+
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
