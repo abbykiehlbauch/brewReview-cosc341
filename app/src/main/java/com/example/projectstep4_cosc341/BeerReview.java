@@ -36,12 +36,6 @@ public class BeerReview extends AppCompatActivity {
         Rating= (RatingBar) findViewById(R.id.Rating);
         save = findViewById(R.id.Save);
 
-        save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(BeerReview.this, "Your review has been posted.", Toast.LENGTH_SHORT).show();
-            }
-        });
 
 
     }

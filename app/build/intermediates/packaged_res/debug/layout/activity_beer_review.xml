@@ -81,17 +81,17 @@
 
     <EditText
         android:id="@+id/BeerName"
-        android:layout_width="199dp"
-        android:layout_height="68dp"
-        android:textSize="25sp"
+        android:layout_width="196dp"
+        android:layout_height="52dp"
         android:fontFamily="serif"
         android:textColor="@color/prussian_blue"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/BeerNameText"

@@ -32,10 +32,6 @@
         "source": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\layout\\activity_all_beer_review.xml"
     },
     {
-        "merged": "com.example.projectstep4_cosc341.app-merged_res-30:/layout_activity_listview.xml.flat",
-        "source": "com.example.projectstep4_cosc341.app-main-32:/layout/activity_listview.xml"
-    },
-    {
         "merged": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_ic_baseline_search_24.xml.flat",
         "source": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\ic_baseline_search_24.xml"
     },
@@ -166,6 +162,10 @@
     {
         "merged": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\drawable_shorelinemenu03.png.flat",
         "source": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-main-32:\\drawable\\shorelinemenu03.png"
+    },
+    {
+        "merged": "com.example.projectstep4_cosc341.app-merged_res-30:/layout_activity_beer_review.xml.flat",
+        "source": "com.example.projectstep4_cosc341.app-main-32:/layout/activity_beer_review.xml"
     },
     {
         "merged": "C:\\Users\\lrae2\\.gradle\\daemon\\7.3.3\\com.example.projectstep4_cosc341.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
