@@ -9,3 +9,6 @@ Our program is called Brew Review and it is designed for beer lovers in Kelowna.
  Finally, they are able to see all of their reviews (of beers and breweries) centralized in their user profile. This acts as a passport, allowing users to see their favourite breweries and beers, and what ones they shouldn’t try again. 
 
 ### Project Walkthrough
+
+https://github.com/user-attachments/assets/89f47f5f-aa25-4532-97eb-5bef1823daa2
+
